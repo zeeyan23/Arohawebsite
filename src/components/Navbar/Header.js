@@ -45,7 +45,7 @@ function Header() {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className={classes.navFont}>
                   <Nav.Link
                     href="https://arohagroup.com/#home"
                     target="_blank"

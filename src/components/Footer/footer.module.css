@@ -12,12 +12,14 @@
     padding-bottom: 1em;
     text-decoration: none;
     text-align: initial;
+    font-family: 'Poppins', sans-serif;
 }
 .textHeadingStyle{
   display: contents;
   color: white;
   padding-top: 1em;
     padding-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 .mailTextColor{
   display: contents;
@@ -25,6 +27,7 @@
   padding-top: 1em;
     padding-bottom: 1em;
     margin-right: 2%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contactStyle{
