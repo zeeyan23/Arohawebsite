@@ -1,3 +1,8 @@
 .boldText{
     font-weight: bold;
 }
+.imageStyle{
+    width: fit-content;
+    height: 4em;
+    margin-left: 6em;
+}
