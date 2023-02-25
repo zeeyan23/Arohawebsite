@@ -24,11 +24,15 @@
 }
 .heading{
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 600px) {
     .imageResStyle{
         display: none;
+    }
+    .rowStyle{
+        margin-top: 8em;
     }
   }
 
