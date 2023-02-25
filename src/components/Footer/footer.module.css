@@ -41,7 +41,7 @@
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 680px) {
     .footerContainer{
         padding-right: 0px;
     }
@@ -55,6 +55,9 @@
       display: block;
     } */
     .colStyle{
+      display: contents;
+    }
+    .colStyleSrticle{
       display: contents;
     }
     .connectRow{

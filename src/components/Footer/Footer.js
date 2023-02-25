@@ -4,7 +4,7 @@ function Footer(){
     return(
         <Container className={classes.footerContainer}>
             <Row className="p-5">
-                <Col>
+                <Col className={classes.colStyle}>
                 <Container>
                     <Col>
                         <Row><h5 className={classes.textHeadingStyle}>Head Office</h5></Row>
@@ -13,7 +13,7 @@ function Footer(){
                     </Col>
                 </Container>
                 </Col>
-                <Col>
+                <Col className={classes.colStyle}>
                     <Container>
                         <Col>
                             <Row className={classes.branchStyle}><h5 className={classes.textHeadingStyle}>Dubai Office</h5></Row>
@@ -22,7 +22,7 @@ function Footer(){
                         </Col>
                     </Container>
                 </Col>
-                <Col>
+                <Col className={classes.colStyleArticle}>
                     <Container>
                         <Col>
                             <Row className={classes.articleStyle}><h5 className={classes.textHeadingStyle}>Articles</h5></Row>

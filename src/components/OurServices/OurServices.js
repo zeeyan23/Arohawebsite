@@ -17,7 +17,7 @@ function OurServices() {
       </Row>
       <Row className="mt-5">
         <Col>
-          <Card style={{ width: "18rem", height: "12rem" }} className="p-3">
+          <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
               className={classes.imageStyle}
@@ -32,7 +32,7 @@ function OurServices() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem", height: "12rem" }} className="p-3">
+          <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
               className={classes.imageStyle}
@@ -40,7 +40,7 @@ function OurServices() {
               src={seo}
             />
             <Card.Body>
-              <Card.Title className="mt-3">
+              <Card.Title>
                 Search Engine{" "}
                 <span className={classes.boldText}>Optimization</span>
               </Card.Title>
@@ -48,14 +48,14 @@ function OurServices() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem", height: "12rem" }} className="p-3">
+          <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
               className={classes.imageStyle}
               src={Email}
             />
             <Card.Body>
-              <Card.Title className="mt-3">
+              <Card.Title>
                 <span className={classes.boldText}>Email</span> marketing
               </Card.Title>
             </Card.Body>
@@ -64,42 +64,42 @@ function OurServices() {
       </Row>
       <Row className="mt-5">
         <Col>
-          <Card style={{ width: "18rem", height: "12rem" }} className="p-3">
+          <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
               className={classes.imageStyle}
               src={Social}
             />
             <Card.Body>
-              <Card.Title className="mt-3">
+              <Card.Title>
                 Social Media <span className={classes.boldText}>Marketing</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem", height: "12rem" }} className="p-3">
+          <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
               className={classes.imageStyle}
               src={Ads}
             />
             <Card.Body>
-              <Card.Title className="mt-3">
+              <Card.Title>
                 Paid <span className={classes.boldText}>Ads</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem", height: "12rem" }} className="p-3">
+          <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
               className={classes.imageStyle}
               src={Creative}
             />
             <Card.Body>
-              <Card.Title className="mt-3">
+              <Card.Title>
                 Creative <span className={classes.boldText}>Developement</span>
               </Card.Title>
             </Card.Body>
