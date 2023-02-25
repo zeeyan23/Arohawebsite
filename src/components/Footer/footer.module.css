@@ -30,6 +30,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.links{
+  margin-top: 1em;
+}
+
 .contactStyle{
   display: contents;
 }
@@ -37,6 +41,37 @@
     
     .contactStyle{
       width: 173%;
+    }
+  }
+
+  @media only screen and (max-width: 680px) {
+    .footerContainer{
+        padding-right: 0px;
+    }
+    .mailLinkContainer{
+      padding-bottom: 2em;
+    }
+    .branchStyle{
+      /* display: table-caption; */
+    }
+    /* .articleStyle{
+      display: block;
+    } */
+    .colStyle{
+      display: contents;
+    }
+    .colStyleSrticle{
+      display: contents;
+    }
+    .cont{
+      display: contents;
+    }
+    .connectRow{
+      margin-top: 0px;
+      padding-top: 2em;
+    }
+    .links{
+      text-align: initial;
     }
   }
 
