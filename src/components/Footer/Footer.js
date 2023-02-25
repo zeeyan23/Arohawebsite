@@ -23,7 +23,7 @@ function Footer(){
                     </Container>
                 </Col>
                 <Col className={classes.colStyleArticle}>
-                    <Container>
+                    <Container className={classes.cont}>
                         <Col>
                             <Row className={classes.articleStyle}><h5 className={classes.textHeadingStyle}>Articles</h5></Row>
                             <Row className="mt-3"><a className={classes.mailTextColor}  href="https://arohagroup.com/tips-to-make-a-high-quality-website-development/" target='_blank'>Website developer in india</a></Row>
