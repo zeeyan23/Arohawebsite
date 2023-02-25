@@ -22,7 +22,18 @@
     margin: 1em;
     font-weight: 700;
 }
+.linkServicesText{
+    font-size: 20px;
+    margin: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    color: grey;
+    margin-top: 1.4em;
+}
 .linkText:hover{
+    color: #F39C12;
+}
+.linkServicesText:hover{
     color: #F39C12;
 }
 .nav{

@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import classes from "../Navbar/header.module.css";
 import logo from "../../../src/assets/ag.png";
 function Header() {
@@ -53,13 +53,12 @@ function Header() {
                   >
                     Home
                   </Nav.Link>
-                  <Nav.Link
-                    to="#services"
-                    // target="_blank"
-                    className={classes.linkText}
+                  <AnchorLink
+                     href="#services"
+                     className={classes.linkServicesText}
                   >
                     Services
-                  </Nav.Link>
+                  </AnchorLink>
                   <Nav.Link
                     href="https://arohagroup.com/about/"
                     target="_blank"
