@@ -11,7 +11,7 @@ function Dashboard() {
   return (
     <>
       <div>
-        <Header />
+        <Header className={classes.headerStyle}/>
         <Container>
           <Row className={classes.rowStyle}>
             <Col className="d-flex mt-5">
