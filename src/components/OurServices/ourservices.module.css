@@ -17,4 +17,17 @@
     .ourservices{
         width: auto;
     }
+    .imageStyle{
+        width: fit-content;
+        height: 4em;
+        margin-left: 8em;
+    }
+    .mobileStyle{
+        margin-top: 1em;
+    }
+    .paidTextStyle{
+        margin-right: 1em;
+    }
 }
+
+

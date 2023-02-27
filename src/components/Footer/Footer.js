@@ -24,7 +24,7 @@ function Footer(){
                 </Col>
                 <Col className={classes.colStyleArticle}>
                     <Container className={classes.cont}>
-                        <Col>
+                        <Col className="tabletColo">
                             <Row className={classes.articleStyle}><h5 className={classes.textHeadingStyle}>Articles</h5></Row>
                             <Row className="mt-3"><a className={classes.mailTextColor}  href="https://arohagroup.com/tips-to-make-a-high-quality-website-development/" target='_blank'>Website developer in india</a></Row>
                             <Row><a className={classes.mailTextColor} href="https://arohagroup.com/graphic-design-in-udupi-manipal/" target='_blank'>Magazine Designing Steps</a></Row>
@@ -34,7 +34,7 @@ function Footer(){
                         </Col>
                     </Container>
                 </Col>
-                <Col className={classes.colStyle}>
+                <Col className={classes.colStyle} id="connectCont">
                     <Container>
                         <Col>
                             <Row className={classes.connectRow}><h5 className={classes.textHeadingStyle}>Connect</h5></Row>

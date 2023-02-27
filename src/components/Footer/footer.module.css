@@ -37,12 +37,6 @@
 .contactStyle{
   display: contents;
 }
-@media only screen and (max-width: 700px) {
-    
-    .contactStyle{
-      width: 173%;
-    }
-  }
 
   @media only screen and (max-width: 680px) {
     .footerContainer{
@@ -76,3 +70,13 @@
     }
   }
 
+  /* tablets */
+
+  @media only screen and (min-width: 768px){
+    .links{
+      text-align: initial;
+    }
+    /* .colStyle{
+      display: none;
+    } */
+  }

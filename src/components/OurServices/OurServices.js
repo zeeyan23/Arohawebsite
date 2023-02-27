@@ -31,7 +31,7 @@ function OurServices() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className={classes.mobileStyle}>
           <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
@@ -47,7 +47,7 @@ function OurServices() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className={classes.mobileStyle}>
           <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
@@ -63,7 +63,7 @@ function OurServices() {
         </Col>
       </Row>
       <Row className="mt-5">
-        <Col>
+        <Col className={classes.mobileStyle} id='sp'>
           <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
@@ -77,7 +77,7 @@ function OurServices() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className={classes.mobileStyle}>
           <Card className={classes.ourservices}>
             <Card.Img
               variant="top"
@@ -85,14 +85,14 @@ function OurServices() {
               src={Ads}
             />
             <Card.Body>
-              <Card.Title>
+              <Card.Title className={classes.paidTextStyle}>
                 Paid <span className={classes.boldText}>Ads</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card className={classes.ourservices}>
+        <Col className={classes.mobileStyle}>
+          <Card className={classes.ourservices} id='creativeDevelopement'>
             <Card.Img
               variant="top"
               className={classes.imageStyle}

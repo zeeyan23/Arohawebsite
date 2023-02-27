@@ -67,6 +67,9 @@ margin-right: 90%;
     .Form{
       width: inherit;
     }
+    .mobileFieldStyle{
+      margin-top: 1em;
+    }
   }
 
   @media only screen and (max-width: 768px) {
