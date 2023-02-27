@@ -34,6 +34,9 @@
   padding-bottom: 1em;
 } */
 
+.footerContainerRow{
+  padding: 3rem;
+}
 .contactStyle{
   display: contents;
 }
@@ -76,6 +79,16 @@
     .links{
       text-align: initial;
     }
+    .footerContainerRow{
+      padding: 4rem;
+    }
+    #link1{
+      text-align: initial;
+    }
+    .colStyleArticle{
+      text-align: initial;
+    }
+
     /* .colStyle{
       display: none;
     } */

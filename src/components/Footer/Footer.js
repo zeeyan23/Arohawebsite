@@ -3,7 +3,7 @@ import classes from '../Footer/footer.module.css'
 function Footer(){
     return(
         <Container className={classes.footerContainer}>
-            <Row className="p-5">
+            <Row className={classes.footerContainerRow}>
                 <Col className={classes.colStyle}>
                 <Container>
                     <Col>
@@ -26,7 +26,7 @@ function Footer(){
                     <Container className={classes.cont}>
                         <Col className="tabletColo">
                             <Row className={classes.articleStyle}><h5 className={classes.textHeadingStyle}>Articles</h5></Row>
-                            <Row className="mt-3"><a className={classes.mailTextColor}  href="https://arohagroup.com/tips-to-make-a-high-quality-website-development/" target='_blank'>Website developer in india</a></Row>
+                            <Row className="mt-3"><a className={classes.mailTextColor} id='link1'  href="https://arohagroup.com/tips-to-make-a-high-quality-website-development/" target='_blank'>Website developer in india</a></Row>
                             <Row><a className={classes.mailTextColor} href="https://arohagroup.com/graphic-design-in-udupi-manipal/" target='_blank'>Magazine Designing Steps</a></Row>
                             <Row className={classes.links}><a className={classes.mailTextColor} href="https://arohagroup.com/why-social-media-is-important-to-your-business/" target='_blank'>Why social media is important?</a></Row>
                             <Row className={classes.links}><a className={classes.mailTextColor} href="https://arohagroup.com/portfolio-website-developers-in-udupi-mangalore/" target='_blank'>Portfolio Website Importtance</a></Row>

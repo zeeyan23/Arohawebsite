@@ -72,13 +72,7 @@ margin-right: 90%;
     }
   }
 
-  @media only screen and (max-width: 768px) {
-
-    
-    .Form{
-      width: inherit;
-    }
-  }
+ 
 
   
 

@@ -12,6 +12,13 @@
      padding: 1em;
      height: 12rem 
 }
+.Container{
+    max-width: 70rem;
+
+}
+#sp{
+    margin-top: 1em;
+}
 
 @media only screen and (max-width: 680px) {
     .ourservices{
@@ -28,6 +35,28 @@
     .paidTextStyle{
         margin-right: 1em;
     }
+    /* #rowLeft{
+        margin-left: 0.5em;
+    } */
+   
 }
+
+@media only screen and (min-width: 768px){
+   #em{
+    margin-top: 1em;
+   }
+   #rowLeft{
+    margin-left: 2em;
+   }
+}
+
+@media only screen and (min-width: 1024px){
+    #em{
+     margin-top: 0em;
+    }
+    #rowLeft{
+        margin-left: 0em;
+    }
+ }
 
 
