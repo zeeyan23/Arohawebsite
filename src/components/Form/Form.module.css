@@ -67,8 +67,8 @@ margin-right: 90%;
     .Form{
       width: inherit;
     }
-    .mobileFieldStyle{
-      margin-top: 1em;
+    .widthStyle{
+      padding-top: 1em;
     }
   }
 

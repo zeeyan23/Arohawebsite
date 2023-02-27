@@ -149,7 +149,7 @@ export const ConnectForm = () => {
                   Please provide name.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="6" controlId="validationCustom01">
+              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
                 <Form.Label className={classes.label}>Last Name</Form.Label>
                 <Form.Control
                   type="text"
@@ -175,7 +175,7 @@ export const ConnectForm = () => {
                   Please enter number.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.mobileFieldStyle}>
+              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
                 <Form.Label className={classes.label}>
                   E-mail Address
                 </Form.Label>
@@ -219,7 +219,7 @@ export const ConnectForm = () => {
                   Please enter pincode.
                 </Form.Control.Feedback>
               </Form.Group> */}
-              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.mobileFieldStyle}>
+              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
                 <Form.Label className={classes.label}>Company Name</Form.Label>
                 <Form.Control
                   type="text"
