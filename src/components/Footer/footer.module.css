@@ -20,6 +20,7 @@
   padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Poppins', sans-serif;
+  
 }
 .mailTextColor{
   display: contents;
@@ -28,6 +29,7 @@
     padding-bottom: 1em;
     margin-right: 2%;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 /* .articleStyle{
@@ -39,6 +41,9 @@
 }
 .contactStyle{
   display: contents;
+}
+.colStyleSrticle{
+  padding: auto;
 }
 
   @media only screen and (max-width: 680px) {
@@ -74,8 +79,7 @@
   }
 
   /* tablets */
-
-  @media only screen and (min-width: 768px){
+ @media only screen and (min-width: 768px){
     .links{
       text-align: initial;
     }
@@ -88,8 +92,9 @@
     .colStyleArticle{
       text-align: initial;
     }
+    
 
-    /* .colStyle{
-      display: none;
-    } */
+    
   }
+  
+  

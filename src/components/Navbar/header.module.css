@@ -21,6 +21,7 @@
     font-size: 20px;
     margin: 1em;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 .linkServicesText{
     font-size: 20px;
@@ -29,6 +30,7 @@
     text-decoration: none;
     color: grey;
     margin-top: 1.4em;
+    font-family: 'Poppins', sans-serif;
 }
 .linkText:hover{
     color: #F39C12;
@@ -57,7 +59,8 @@
 
   .navbar{
     height: 50px;
-    background-color: #003580;
+    /* background-color: #003580; */
+    background-image: linear-gradient(rgb(9, 9, 73), black);
     display: flex;
     justify-content: center;
   }

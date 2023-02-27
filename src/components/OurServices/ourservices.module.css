@@ -1,3 +1,8 @@
+.boldText1{
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: 'Orbitron', sans-serif;
+}
 .boldText{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;

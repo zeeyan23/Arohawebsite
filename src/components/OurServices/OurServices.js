@@ -1,18 +1,18 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import classes from "../OurServices/ourservices.module.css";
-import webImage from '../../assets/website development.png'
-import seo from '../../assets/seo.png'
-import Email from '../../assets/email marketing.png'
-import Social from '../../assets/social media marketing.png'
-import Creative from '../../assets/creative development.png'
-import Ads from '../../assets/ads.png'
+import webImage from "../../assets/website development.png";
+import seo from "../../assets/seo.png";
+import Email from "../../assets/email marketing.png";
+import Social from "../../assets/social media marketing.png";
+import Creative from "../../assets/creative development.png";
+import Ads from "../../assets/ads.png";
 
 function OurServices() {
   return (
     <Container className={classes.Container} id="services">
       <Row>
         <Col className="mt-5">
-          <h2 className={classes.boldText}>Our Services</h2>
+          <h2 className={classes.boldText1}>Our Services</h2>
         </Col>
       </Row>
       <Row className="mt-5" id={classes.rowLeft}>
@@ -33,12 +33,7 @@ function OurServices() {
         </Col>
         <Col className={classes.mobileStyle}>
           <Card className={classes.ourservices}>
-            <Card.Img
-              variant="top"
-              className={classes.imageStyle}
-              
-              src={seo}
-            />
+            <Card.Img variant="top" className={classes.imageStyle} src={seo} />
             <Card.Body>
               <Card.Title>
                 Search Engine{" "}
@@ -77,11 +72,7 @@ function OurServices() {
         </Col>
         <Col className={classes.mobileStyle} id={classes.sp}>
           <Card className={classes.ourservices}>
-            <Card.Img
-              variant="top"
-              className={classes.imageStyle}
-              src={Ads}
-            />
+            <Card.Img variant="top" className={classes.imageStyle} src={Ads} />
             <Card.Body>
               <Card.Title className={classes.paidTextStyle}>
                 Paid <span className={classes.boldText}>Ads</span>
@@ -90,7 +81,7 @@ function OurServices() {
           </Card>
         </Col>
         <Col className={classes.mobileStyle} id={classes.sp}>
-          <Card className={classes.ourservices} id='creativeDevelopement'>
+          <Card className={classes.ourservices} id="creativeDevelopement">
             <Card.Img
               variant="top"
               className={classes.imageStyle}
@@ -104,9 +95,7 @@ function OurServices() {
           </Card>
         </Col>
       </Row>
-      <Row className="mt-5">
-        
-      </Row>
+      <Row className="mt-5"></Row>
     </Container>
   );
 }

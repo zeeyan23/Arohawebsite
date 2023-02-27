@@ -54,8 +54,8 @@ function Header() {
                     Home
                   </Nav.Link>
                   <AnchorLink
-                     href="#services"
-                     className={classes.linkServicesText}
+                    href="#services"
+                    className={classes.linkServicesText}
                   >
                     Services
                   </AnchorLink>

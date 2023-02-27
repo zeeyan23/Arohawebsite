@@ -5,7 +5,7 @@ export const ThankYou = () => {
   return (
     <Container className={classes.thankyou}>
       <Row>
-        <h1>Thank you for submitting ,We'll contact you soon...</h1>
+        <h1>Thank you for sharing information ,We'll get back you soon...</h1>
       </Row>
     </Container>
   );

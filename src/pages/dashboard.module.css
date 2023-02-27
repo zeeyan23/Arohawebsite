@@ -23,9 +23,36 @@
         margin-top: 2em;
 }
 .heading{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+    font-family: 'Orbitron', sans-serif;
+letter-spacing: 3px;
+margin-left: 3em;
+    font-weight: 800;
+    background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
+   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
 }
+.heading1{
+    font-family: 'Orbitron', sans-serif;
+letter-spacing: 3px;
+
+    font-weight: 800;
+    background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
+   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.spanText{
+
+    line-height: 2em;
+    background: linear-gradient(rgb(255, 233, 207), rgba(248, 137, 10, 0.938));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+
 
 @media only screen and (max-width: 600px) {
     .imageResStyle{
@@ -33,6 +60,10 @@
     }
     .rowStyle{
         margin-top: 8em;
+        
+    }
+    .heading{
+        margin-left: 1em;
     }
   }
 
@@ -43,6 +74,10 @@
     .imageStyle{
         display: contents;
     }
+    .heading{
+        margin-left: 1em;
+       
+    }
  }
  @media only screen and (min-width: 1024px){
     .imageResStyle{
@@ -50,5 +85,9 @@
     }
     .imageStyle{
         display: block;
+    }
+    .heading{
+        margin-left: 3em;
+       
     }
  }

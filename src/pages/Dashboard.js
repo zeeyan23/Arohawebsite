@@ -11,17 +11,14 @@ function Dashboard() {
   return (
     <>
       <div>
-        <Header className={classes.headerStyle}/>
+        <Header className={classes.headerStyle} />
         <Container>
           <Row className={classes.rowStyle}>
             <Col className="d-flex mt-5">
               <h1 className={classes.heading}>
-                360<sup>o</sup> Digital Marketing Solution
-                <br /> by
-                <span style={{ color: "#E67E22", lineHeight: "2em" ,fontfamily: 'Poppins, sans-serif'}}>
-                  {" "}
-                  Aroha Group
-                </span>
+                36O<sup className={classes.heading1}>o</sup> Digital Marketing
+                Solution by <br />
+                <span className={classes.spanText}> Aroha Group</span>
               </h1>
             </Col>
           </Row>
