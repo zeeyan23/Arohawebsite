@@ -36,7 +36,7 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar> */}
-      <div className={classes.outer}>
+      {/* <div className={classes.outer}> */}
         <Container>
           <Navbar bg="light" expand="lg" className={classes.nav}>
             <Container>
@@ -72,7 +72,7 @@ function Header() {
           </Navbar>
         </Container>
         <div className={classes.inner}></div>
-      </div>
+      {/* </div> */}
 
       {/* <Container>
         <Row className={classes.heading}>

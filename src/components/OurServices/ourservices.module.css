@@ -1,12 +1,13 @@
 .boldText1{
     font-weight: 800;
     letter-spacing: 2px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .boldText{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
+
 .imageStyle{
     width: fit-content;
     height: 4em;
@@ -19,7 +20,6 @@
 }
 .Container{
     max-width: 70rem;
-
 }
 #sp{
     margin-top: 1em;

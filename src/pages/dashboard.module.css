@@ -10,36 +10,57 @@
 .imageStyle{
     margin-top: 0%;
 }
+.quest{
+    margin-left: 1.5em;
+    padding-bottom: 0.5em;
+}
 .imageResStyle{
 
     width: 100%;
 }
 .rowStyle{
-    margin-top: 11em;
+    margin-top: 1em;
+}
+.mainHeading{
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 5em;
 }
 .Footer{
     background-image: linear-gradient(rgb(9, 9, 73), black);
         padding: 5;
         margin-top: 2em;
 }
+
+.aboutUs{
+    margin-left: 2.4em;
+    text-align: justify;
+}
+.alertBox{
+    margin-top: 3em;
+    margin-left: 2.4em;
+    text-align: center;
+    font-weight: bold;
+    z-index: -1;
+}
 .heading{
-    font-family: 'Orbitron', sans-serif;
+    
 letter-spacing: 3px;
-margin-left: 3em;
+/* margin-left: 3em; */
     font-weight: 800;
     background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
-   
+    font-family: 'Poppins', sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
 }
 .heading1{
-    font-family: 'Orbitron', sans-serif;
+    
 letter-spacing: 3px;
 
     font-weight: 800;
     background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
-   
+   z-index: -1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
@@ -86,8 +107,5 @@ letter-spacing: 3px;
     .imageStyle{
         display: block;
     }
-    .heading{
-        margin-left: 3em;
-       
-    }
+   
  }

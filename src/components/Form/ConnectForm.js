@@ -137,7 +137,7 @@ export const ConnectForm = () => {
 
             <Row className="mb-4">
               <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.mobileFieldStyle}>
-                <Form.Label className={classes.label}>First Name</Form.Label>
+                {/* <Form.Label className={classes.label}>First Name</Form.Label> */}
                 <Form.Control
                   required
                   type="text"
@@ -150,7 +150,7 @@ export const ConnectForm = () => {
                 </Form.Control.Feedback>
               </Form.Group>
               <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
-                <Form.Label className={classes.label}>Last Name</Form.Label>
+                {/* <Form.Label className={classes.label}>Last Name</Form.Label> */}
                 <Form.Control
                   type="text"
                   placeholder="Last name"
@@ -162,7 +162,7 @@ export const ConnectForm = () => {
 
             <Row className="mb-4">
               <Form.Group as={Col} md="6" controlId="validationCustom01">
-                <Form.Label className={classes.label}>Phone Number</Form.Label>
+                {/* <Form.Label className={classes.label}>Phone Number</Form.Label> */}
                 <Form.Control
                   type="text"
                   placeholder="Phone number"
@@ -176,9 +176,9 @@ export const ConnectForm = () => {
                 </Form.Control.Feedback>
               </Form.Group>
               <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
-                <Form.Label className={classes.label}>
+                {/* <Form.Label className={classes.label}>
                   E-mail Address
-                </Form.Label>
+                </Form.Label> */}
                 <Form.Control
                   type="email"
                   placeholder="E-mail"
@@ -193,7 +193,7 @@ export const ConnectForm = () => {
             </Row>
             <Row className="mb-4">
               <Form.Group as={Col} md="6" controlId="validationCustom01">
-                <Form.Label className={classes.label}>Location</Form.Label>
+                {/* <Form.Label className={classes.label}>Location</Form.Label> */}
                 <Form.Control
                   required
                   type="text"
@@ -220,7 +220,7 @@ export const ConnectForm = () => {
                 </Form.Control.Feedback>
               </Form.Group> */}
               <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
-                <Form.Label className={classes.label}>Company Name</Form.Label>
+                {/* <Form.Label className={classes.label}>Company Name</Form.Label> */}
                 <Form.Control
                   type="text"
                   placeholder="Company name"
@@ -249,7 +249,7 @@ export const ConnectForm = () => {
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label className={classes.label}>Comment</Form.Label>
+                {/* <Form.Label className={classes.label}>Comment</Form.Label> */}
                 <Form.Control
                   as="textarea"
                   rows={3}
