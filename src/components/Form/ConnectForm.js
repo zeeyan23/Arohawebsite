@@ -131,8 +131,8 @@ export const ConnectForm = () => {
             className={classes.Form}
             onSubmit={submitFormHandler}
           >
-            <Row>
-              <h1 className={classes.connectMsgStyle}>Lets Connect</h1>
+            <Row className={classes.connectMsgStyle}>
+              <h5>Lets Connect</h5>
             </Row>
 
             <Row className="mb-4">

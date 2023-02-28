@@ -42,7 +42,7 @@ function Dashboard() {
                 Let's Connect  <FontAwesomeIcon icon={faArrowCircleRight} />
               </Alert>
             </Col>
-            <Col xs={6}>
+            <Col xs={6} className='mt-5'>
               <ConnectForm />
             </Col>
           </Row>
