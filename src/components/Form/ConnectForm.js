@@ -89,7 +89,7 @@ export const ConnectForm = () => {
     } else {
       axios
         .post(
-          "http://server.thebluefaith.com/createContactUsTable.php",
+          "http://server.thebluefaith.com/savecontactusTableData.php",
           formData
         )
         .then((response) => {
