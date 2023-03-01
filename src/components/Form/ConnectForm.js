@@ -168,9 +168,9 @@ export const ConnectForm = () => {
               <Form.Group as={Col} md="6" controlId="validationCustom01">
                 {/* <Form.Label className={classes.label}>Phone Number</Form.Label> */}
                 <Form.Control
-                  type="number"
+                  type="text"
                   placeholder="Phone number"
-                  // maxLength={10}
+                  maxLength={10}
                   required
                   value={enteredNum}
                   onChange={phoneNumChangeHandler}
