@@ -16,14 +16,18 @@
 .ourservices{
      width: 18rem;
      padding: 1em;
-     height: 12rem 
+     height: 12rem ;
+     position: relative;
+     z-index: -1;
 }
 .Container{
     max-width: 70rem;
+    margin-top: 1em;
 }
 #sp{
     margin-top: 1em;
 }
+
 
 @media only screen and (max-width: 680px) {
     .ourservices{

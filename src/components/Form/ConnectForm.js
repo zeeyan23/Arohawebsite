@@ -15,6 +15,7 @@ import { ThankYou } from "../ThankYou/ThankYou";
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
 
+
 export const ConnectForm = () => {
   const navigate = useNavigate();
   const [enteredFirstName, setEnteredFirstName] = useState("");
@@ -25,7 +26,9 @@ export const ConnectForm = () => {
   const [enteredLocation, setEnteredLocation] = useState("");
   const [enteredPinCode, setEnteredPinCode] = useState("");
   const [enteredCompanyName, setEnteredCompanyName] = useState("");
-
+  const [email, setEmail] = useState("zeeyanraza444@gmail.com");
+  const [subject, setSubject] = useState("Test email");
+  const [message, setMessage] = useState("Here message goes...");
   const [showThankYoupage, setShowThankYouPage] = useState(false);
 
   const [validated, setValidated] = useState(false);
@@ -60,6 +63,8 @@ export const ConnectForm = () => {
   }
   const submitFormHandler = (event) => {
     event.preventDefault();
+
+
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
@@ -71,7 +76,6 @@ export const ConnectForm = () => {
       enteredNum,
       enteredEmail,
       enteredLocation,
-
       enteredCompanyName,
       enteredDescription,
     };
@@ -85,7 +89,7 @@ export const ConnectForm = () => {
     } else {
       axios
         .post(
-          "http://server.thebluefaith.com/savecontactusTableData.php",
+          "http://server.thebluefaith.com/createContactUsTable.php",
           formData
         )
         .then((response) => {
@@ -131,9 +135,9 @@ export const ConnectForm = () => {
             className={classes.Form}
             onSubmit={submitFormHandler}
           >
-            <Row className={classes.connectMsgStyle}>
+            {/* <Row className={classes.connectMsgStyle}>
               <h5>Lets Connect</h5>
-            </Row>
+            </Row> */}
 
             <Row className="mb-4">
               <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.mobileFieldStyle}>
@@ -164,9 +168,9 @@ export const ConnectForm = () => {
               <Form.Group as={Col} md="6" controlId="validationCustom01">
                 {/* <Form.Label className={classes.label}>Phone Number</Form.Label> */}
                 <Form.Control
-                  type="text"
+                  type="number"
                   placeholder="Phone number"
-                  maxLength={10}
+                  // maxLength={10}
                   required
                   value={enteredNum}
                   onChange={phoneNumChangeHandler}
@@ -260,7 +264,10 @@ export const ConnectForm = () => {
               </Form.Group>
             </Row>
 
-            <Button type="submit" className={classes.btnStyle}>
+            {/* <Button type="submit" className={classes.btnStyle} size="lg" variant="warning">
+              Submit
+            </Button> */}
+            <Button variant="warning" size="xxl" type="submit" className={classes.btnflat}>
               Submit
             </Button>
           </Form>

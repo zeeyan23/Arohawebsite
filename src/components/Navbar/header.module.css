@@ -6,7 +6,12 @@
     font-weight: bold;
     /* color: white; */
 }
-
+#basicnavbarnav{
+  flex-grow: 0.1;
+}
+.brandImage{
+  margin-left: 1em;
+}
 /* .heading{
     margin-top: 5%;
     margin-right: 53%;
@@ -40,18 +45,14 @@
     color: #F39C12;
 }
 .nav{
-    position: fixed;
-   /* top: 5%; */
-   left: 10%;
-   width: 80%;
-   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   border-radius: 13px; */
+   position: fixed;
+   width: 100%;
    padding: 13px;
-
-  
+   margin-left: auto;
 }
 .navFont{
     font-family: 'Poppins', sans-serif;
+    margin: auto;
 }
 
 .image{
@@ -82,31 +83,16 @@
    
   }
 
+
   
   @media only screen and (max-width: 600px) {
     .nav{
         position: fixed;
-       top: 6%;
-       margin-left: 6%;
-       width: 80%;
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       border-radius: 13px;
        padding: 13px;
       
     }
-  }
-
-  
-  @media only screen and (max-width: 768px) {
-    .nav{
-        position: fixed;
-       top: 9%;
-       margin-left: 6%;
-       width: 80%;
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       border-radius: 13px;
-       padding: 13px;
-      
+    .brandImage{
+      margin-left: initial;
     }
   }
   

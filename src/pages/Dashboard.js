@@ -14,13 +14,18 @@ function Dashboard() {
     <>
       <div>
         <Header className={classes.headerStyle} />
-        <Container>
-          <Row>
+        <Container className={classes.textForm}>
+          <Row className={classes.flexDirection}>
             <Col className={classes.mainHeading}>
               <h1 className={classes.heading}>
-                36O<sup className={classes.heading1}>o</sup> Digital Marketing
-                Solution by
-                <span className={classes.spanText}> Aroha Group</span>
+                <span className={classes.heading}>
+                  360<sup className={classes.heading}>o</sup>
+                  <span className={classes.heading}>Digital Marketing Solution by</span>
+                  <span className={classes.spanText}> Aroha Group</span>
+                </span>
+                {/* 36O<sup className={classes.heading1}>o</sup><p className={classes.heading}>Digital Marketing
+                Solution by</p>
+                <span className={classes.spanText}> Aroha Group</span> */}
               </h1>
               <h4 className={classes.quest}>Who we are?</h4>
               <p className={classes.aboutUs}>

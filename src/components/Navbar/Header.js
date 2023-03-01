@@ -37,14 +37,14 @@ function Header() {
         </Container>
       </Navbar> */}
       {/* <div className={classes.outer}> */}
-        <Container>
-          <Navbar bg="light" expand="lg" className={classes.nav}>
+        {/* <Container> */}
+          <Navbar bg="white" expand="lg" className={classes.nav}>
             <Container>
-              <Navbar.Brand href="/">
+              <Navbar.Brand href="/" className={classes.brandImage}>
                 <img src={logo} width="100" alt=" logo" />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
+              <Navbar.Collapse id={classes.basicnavbarnav}>
                 <Nav className={classes.navFont}>
                   <Nav.Link
                     href="https://arohagroup.com/#home"
@@ -70,8 +70,8 @@ function Header() {
               </Navbar.Collapse>
             </Container>
           </Navbar>
-        </Container>
-        <div className={classes.inner}></div>
+        {/* </Container> */}
+        {/* <div className={classes.inner}></div> */}
       {/* </div> */}
 
       {/* <Container>

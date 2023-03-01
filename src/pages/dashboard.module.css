@@ -4,12 +4,17 @@
 .tableLeftStyle{
     margin-left: 5%;
 }
+
 .modalTextStyle{
     margin-left: 44%;
+}
+.textForm{
+    padding-top: 5.5em;
 }
 .imageStyle{
     margin-top: 0%;
 }
+
 .quest{
     margin-left: 1.5em;
     padding-bottom: 0.5em;
@@ -24,7 +29,7 @@
 .mainHeading{
     text-align: left;
     margin-left: 1em;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 .Footer{
     background-image: linear-gradient(rgb(9, 9, 73), black);
@@ -34,7 +39,7 @@
 
 .aboutUs{
     margin-left: 2.4em;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .alertBox{
     margin-top: 3em;
@@ -47,8 +52,9 @@
     
 letter-spacing: 3px;
 /* margin-left: 3em; */
+z-index: -1;
     font-weight: 800;
-    background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
+    background: linear-gradient(rgb(7, 7, 80),rgb(130, 130, 191));
     font-family: 'Poppins', sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -84,7 +90,23 @@ letter-spacing: 3px;
         
     }
     .heading{
-        margin-left: 1em;
+        margin-left: auto;
+    }
+    .quest{
+        margin-left: auto;
+    }
+    .spanText{
+        line-height: normal;
+        display: block;
+    }
+    .alertBox{
+        margin-left: auto;
+    }
+    .aboutUs{
+        margin-left: auto;
+    }
+    .mainHeading{
+        margin-top: 1em;
     }
   }
 
@@ -96,8 +118,26 @@ letter-spacing: 3px;
         display: contents;
     }
     .heading{
-        margin-left: 1em;
+        margin-left: auto;
        
+    }
+    .mainHeading{
+        margin-top: 1em;
+    }
+    .spanText{
+        line-height: normal;
+    }
+    .alertBox{
+        margin-left: auto;
+    }
+    .quest{
+        margin-left: auto;
+    }
+    .aboutUs{
+        margin-left: auto;
+    }
+    .flexDirection{
+        flex-direction: column;
     }
  }
  @media only screen and (min-width: 1024px){
@@ -106,6 +146,13 @@ letter-spacing: 3px;
     }
     .imageStyle{
         display: block;
+    }
+    .flexDirection{
+        flex-direction: row;
+    }
+    .mainHeading{
+        margin-top: 5em;
+        padding-bottom: 1.7em;
     }
    
  }
