@@ -38,8 +38,8 @@ function Header() {
       </Navbar> */}
       {/* <div className={classes.outer}> */}
         {/* <Container> */}
-          <Navbar bg="white" expand="lg" className={classes.nav}>
-            <Container>
+          <Navbar expand="lg" className={classes.nav}>
+            <Container className={classes.containerNav}>
               <Navbar.Brand href="/" className={classes.brandImage}>
                 <img src={logo} width="100" alt=" logo" />
               </Navbar.Brand>
