@@ -26,9 +26,6 @@ export const ConnectForm = () => {
   const [enteredLocation, setEnteredLocation] = useState("");
   const [enteredPinCode, setEnteredPinCode] = useState("");
   const [enteredCompanyName, setEnteredCompanyName] = useState("");
-  const [email, setEmail] = useState("zeeyanraza444@gmail.com");
-  const [subject, setSubject] = useState("Test email");
-  const [message, setMessage] = useState("Here message goes...");
   const [showThankYoupage, setShowThankYouPage] = useState(false);
 
   const [validated, setValidated] = useState(false);
