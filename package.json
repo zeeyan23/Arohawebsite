@@ -3,6 +3,7 @@
   "homepage": "http://server.thebluefaith.com/aroha_site/",
   "version": "0.1.0",
   "private": true,
+  "proxy":"http://localhost:8006",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -12,6 +13,9 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "nodemailer": "^6.9.1",
     "react": "^18.2.0",

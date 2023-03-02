@@ -28,6 +28,7 @@ export const ConnectForm = () => {
   const [enteredCompanyName, setEnteredCompanyName] = useState("");
   const [showThankYoupage, setShowThankYouPage] = useState(false);
 
+  const [email,setEmail]=useState("");
   const [validated, setValidated] = useState(false);
 
   const [show, setShow] = useState(false);
@@ -58,7 +59,7 @@ export const ConnectForm = () => {
   function companyNameChangeHandler(e) {
     setEnteredCompanyName(e.target.value);
   }
-  const submitFormHandler = (event) => {
+  const submitFormHandler = async(event) => {
     event.preventDefault();
 
 
@@ -113,7 +114,24 @@ export const ConnectForm = () => {
         });
     }
     setValidated(true);
+
+    const res = await fetch("/register",{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json"
+      },body:JSON.stringify({
+        enteredFirstName,
+        enteredLastName,
+        enteredDescription,
+        enteredCompanyName,
+        enteredLocation,
+        enteredNum,
+        enteredEmail
+      })
+    })
+    console.log(res)
   };
+  
 
   return (
     <>
@@ -264,9 +282,12 @@ export const ConnectForm = () => {
             {/* <Button type="submit" className={classes.btnStyle} size="lg" variant="warning">
               Submit
             </Button> */}
-            <Button variant="warning" size="xxl" type="submit" className={classes.btnflat}>
+            <button type="submit" className={classes.btnflat}>
               Submit
-            </Button>
+            </button>
+            {/* <Button size="xxl" >
+              Submit
+            </Button> */}
           </Form>
         </Container>
       </Container>
