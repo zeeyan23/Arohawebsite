@@ -21,11 +21,8 @@ function Dashboard() {
                 <span className={classes.heading}>
                   360<sup className={classes.heading}>o</sup>
                   <span className={classes.heading}>Digital Marketing Solution by</span>
-                  <span className={classes.spanText}> Aroha Group</span>
+                  <span> <strong className={classes.spanText}>Aroha Group</strong></span>
                 </span>
-                {/* 36O<sup className={classes.heading1}>o</sup><p className={classes.heading}>Digital Marketing
-                Solution by</p>
-                <span className={classes.spanText}> Aroha Group</span> */}
               </h1>
               <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
               <p className={classes.aboutUs}>

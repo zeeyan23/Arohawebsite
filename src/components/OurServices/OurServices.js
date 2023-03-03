@@ -15,7 +15,7 @@ function OurServices() {
           <h2 className={classes.boldText1}>Our Services</h2>
         </Col>
       </Row>
-      <Row className="mt-5">
+      <Row className="mt-5"id={classes.rowLeft} >
         <Col>
           <Card className={classes.cardDesign}>
             <Card.Img
@@ -44,7 +44,7 @@ function OurServices() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className={classes.mobileStyle}>
+        <Col className={classes.mobileStyle} id={classes.EM}>
           <Card className={classes.cardDesign}>
             <Card.Img
               variant="top"

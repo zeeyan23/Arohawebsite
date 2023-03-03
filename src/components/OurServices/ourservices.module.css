@@ -64,7 +64,9 @@
     margin-top: 1em;
 }
 
-
+.cardContainerTablet{
+    margin-top: 3em;
+}
 
 @media only screen and (max-width: 680px) {
     .cardDesign{
@@ -73,14 +75,27 @@
     .iconStyle{
         width: fit-content;
         height: 4em;
-        margin-left: 8em;
+        margin-left: 9em;
     }
     .mobileStyle{
-        margin-top: 1em;
+        margin-top: 1.3em;
     }
     .paidTextStyle{
         margin-right: 1em;
         margin-top: 1em;
+    }
+    .textContainer{
+        text-align: center;
+    }
+    .textEmailContainer{
+        text-align: center;
+    }
+    .textSeoContainer{
+        text-align: center;
+    }
+    .textPaidContainer{
+        text-align: center;
+        margin-right: 0em;
     }
     /* #rowLeft{
         margin-left: 0.5em;
@@ -93,7 +108,11 @@
     margin-top: 1em;
    }
    #rowLeft{
+    margin-top: auto;
     margin-left: 2em;
+   }
+   #EM{
+    margin-top: 1.2em;
    }
 }
 
@@ -103,6 +122,12 @@
     }
     #rowLeft{
         margin-left: 0em;
+    }
+    .mobileStyle{
+        margin-top: 0em;
+    }
+    #EM{
+        margin-top: 0em;
     }
  }
 
