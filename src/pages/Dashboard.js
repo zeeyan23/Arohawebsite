@@ -1,4 +1,4 @@
-import { Alert, Col, Container, Row } from "react-bootstrap";
+import { Alert, Col, Container, Nav, Row } from "react-bootstrap";
 import Footer from "../components/Footer/Footer";
 import { ConnectForm } from "../components/Form/ConnectForm";
 import Header from "../components/Navbar/Header";
@@ -45,6 +45,24 @@ function Dashboard() {
         </Container>
         {/* <About /> */}
         <OurServices className={classes.OurServices}/>
+        <Container>
+          <Row>
+            <Col></Col>
+            <Col>
+              {/* <button type="submit" className={classes.btnflat}>
+                Learn More
+              </button> */}
+              <Nav.Link
+                    href="https://arohagroup.com/#home"
+                    target="_blank"
+                    style={{color:'white'}}
+                    className={classes.btnflat}>
+                    Learn More
+                  </Nav.Link>
+            </Col>
+            <Col></Col>
+          </Row>
+        </Container>
         <div className={classes.Footer}>
           <Footer />
         </div>

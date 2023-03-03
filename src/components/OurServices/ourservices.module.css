@@ -30,7 +30,7 @@
      position: relative;
      z-index: -1;
      border-radius: 1em;
-     box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(84, 84, 84, 0.19);
+     box-shadow: 0 4px 8px 0 rgba(53, 53, 53, 0.1), 0 6px 20px 0 rgba(54, 54, 54, 0.1);
 }
 .Container{
     max-width: 70rem;
