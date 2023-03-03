@@ -12,7 +12,7 @@ function OurServices() {
     <Container className={classes.Container} id="services">
       <Row>
         <Col className="mt-4">
-          <h2 className={classes.boldText1}>Our Services</h2>
+          <h1 className={classes.boldText1}>Our Services</h1>
         </Col>
       </Row>
       <Row className="mt-5"id={classes.rowLeft} >

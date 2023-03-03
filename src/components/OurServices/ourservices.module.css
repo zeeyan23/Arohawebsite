@@ -1,6 +1,7 @@
 .boldText1{
     font-weight: 800;
     letter-spacing: 2px;
+    /* font-size: xx-large; */
     font-family: 'Poppins', sans-serif;
 }
 .boldText{
@@ -96,6 +97,9 @@
     .textPaidContainer{
         text-align: center;
         margin-right: 0em;
+    }
+    .boldText1{
+        margin-top: 1em;
     }
     /* #rowLeft{
         margin-left: 0.5em;

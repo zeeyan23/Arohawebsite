@@ -46,14 +46,17 @@
 
 .aboutUs{
     margin-left: 2.4em;
+    line-height: 2em;
+    font-size: 1.1em;
     /* text-align: justify; */
 }
 .alertBox{
-    margin-top: 1em;
-    margin-left: 2.4em;
+    margin-top: 2em;
+    margin-left: 2em;
     text-align: center;
     font-weight: bold;
     z-index: -1;
+    font-size: larger;
 }
 .heading{
     
@@ -150,9 +153,13 @@ font-family:'Poppins', sans-serif;
     }
     .aboutUs{
         margin-left: auto;
+        line-height: 2em;
     }
     .mainHeading{
         margin-top: 1em;
+    }
+    .formTop{
+        margin-top: 0em;
     }
     .digi{
     
@@ -219,6 +226,5 @@ font-family:'Poppins', sans-serif;
     .mainHeading{
         margin-top: 5em;
         padding-bottom: 1.7em;
-    }
-   
+    }   
  }

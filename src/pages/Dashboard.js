@@ -22,21 +22,17 @@ function Dashboard() {
               </h1>
               <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
               <p className={classes.aboutUs}>
-              Aroha group is a full
-              service digital marketing agency that
-              specializes in helping businesses of all sizes achieve their online
-              goals. Our team of experienced professionals are experts in a
-              wide range of digital marketing services, including search engine
-              optimization (SEO), pay per click (PPC) advertising, social media
-              marketing, content marketing, email marketing and website
-              design and development.<br />
-                <p className={classes.aboutUsAnother}>
+                  Aroha Group is a full-service digital marketing agency that offers a wide range of services such as SEO, PPC 
+                  advertising, social media marketing, content marketing, email marketing, website design and development to 
+                  help businesses of all sizes achieve their online goals. We take a data-driven approach and work closely 
+                  with clients to develop customized strategies that deliver measurable results and positive ROI.<br />
+                {/* <p className={classes.aboutUsAnother}>
                   We understand that every business is unique, and we work
                   closely with our clients to develop custom strategies that are
                   tailored to their specific needs. Our data-driven approach and
                   focus on measurable results ensures that our clients see a
                   positive return on their investment.
-                </p>
+                </p> */}
               </p>
               <Alert variant='info' className={classes.alertBox}>
                 Let's Connect  <FontAwesomeIcon icon={faArrowCircleRight} />
