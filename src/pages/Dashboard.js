@@ -17,12 +17,8 @@ function Dashboard() {
         <Container className={classes.textForm}>
           <Row className={classes.flexDirection}>
             <Col className={classes.mainHeading}>
-              <h1 className={classes.heading}>
-                <span className={classes.heading}>
-                  360<sup className={classes.heading}>o</sup>
-                  <span className={classes.heading}>Digital Marketing Solution by</span>
-                  <span> <strong className={classes.spanText}>Aroha Group</strong></span>
-                </span>
+              <h1 className={classes.heading1}>
+                <span className={classes.digi}>360⁰ Digital </span><span className={classes.marketingText}>Marketing</span><span className={classes.heading2}> Solution by </span><span className={classes.spanText}>Aroha Group</span>
               </h1>
               <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
               <p className={classes.aboutUs}>

@@ -70,14 +70,46 @@ z-index: -1;
 .heading1{
     
 letter-spacing: 3px;
-
-    font-weight: 800;
+font-family:'Poppins', sans-serif;
+    font-weight: bolder;
     background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
    z-index: -1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
 }
+.marketingText{
+        
+    letter-spacing: 3px;
+    font-family:'Poppins', sans-serif;
+        font-weight: bolder;
+        background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+       z-index: -1;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.digi{
+        
+    letter-spacing: 3px;
+    font-family:'Poppins', sans-serif;
+        font-weight: bolder;
+        background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+       z-index: -1;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.heading2{
+    
+    letter-spacing: 3px;
+    font-family:'Poppins', sans-serif;
+        font-weight: bolder;
+        background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+       z-index: -1;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+        
+    }
 .formTop{
     margin-top: 4em;
 }
@@ -85,11 +117,13 @@ letter-spacing: 3px;
     margin-top: 0.2em;
 }
 .spanText{
-    line-height: 2em;
-    background: -webkit-linear-gradient(#ffab00, #d68552);
+    background-image: linear-gradient(#FFB621, #F57373);
+    background-clip: 'text';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+     color: 'transparent';
+     font-family:'Poppins', sans-serif;
+     font-weight: bolder;
 }
 
 
@@ -119,6 +153,26 @@ letter-spacing: 3px;
     }
     .mainHeading{
         margin-top: 1em;
+    }
+    .digi{
+    
+        letter-spacing: 3px;
+        font-family:'Poppins', sans-serif;
+            font-weight: bolder;
+            background: linear-gradient(rgb(7, 7, 80),rgb(106 106 164));
+           z-index: -1;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+            
+        }
+    .marketingText{
+        letter-spacing: 3px;
+        font-family:'Poppins', sans-serif;
+            font-weight: bolder;
+            background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+           z-index: -1;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
     }
   }
 
