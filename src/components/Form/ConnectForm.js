@@ -84,6 +84,7 @@ export const ConnectForm = () => {
       enteredLocation === ""
     ) {
       setValidated(false);
+      
     } else {
       axios
         .post(
@@ -112,24 +113,25 @@ export const ConnectForm = () => {
         .catch((error) => {
           console.log(error);
         });
+        const res = await fetch("/register",{
+          method:"POST",
+          headers:{
+            "Content-Type":"application/json"
+          },body:JSON.stringify({
+            enteredFirstName,
+            enteredLastName,
+            enteredDescription,
+            enteredCompanyName,
+            enteredLocation,
+            enteredNum,
+            enteredEmail
+          })
+        })
+        console.log(res)
     }
     setValidated(true);
 
-    const res = await fetch("/register",{
-      method:"POST",
-      headers:{
-        "Content-Type":"application/json"
-      },body:JSON.stringify({
-        enteredFirstName,
-        enteredLastName,
-        enteredDescription,
-        enteredCompanyName,
-        enteredLocation,
-        enteredNum,
-        enteredEmail
-      })
-    })
-    console.log(res)
+   
   };
   
 

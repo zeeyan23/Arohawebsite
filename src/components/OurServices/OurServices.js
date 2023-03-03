@@ -11,91 +11,95 @@ function OurServices() {
   return (
     <Container className={classes.Container} id="services">
       <Row>
-        <Col className="mt-5">
+        <Col className="mt-4">
           <h2 className={classes.boldText1}>Our Services</h2>
         </Col>
       </Row>
-      <Row className="mt-5" id={classes.rowLeft}>
+      <Row className="mt-5">
         <Col>
-          <Card className={classes.ourservices}>
+          <Card className={classes.cardDesign}>
             <Card.Img
               variant="top"
-              className={classes.imageStyle}
-              height="50"
+              className={classes.iconStyle}
               src={webImage}
             />
             <Card.Body>
-              <Card.Title className="mt-3">
-                <span className={classes.boldText}>Website</span> Developement
+              <Card.Title className={classes.textContainer}>
+                <span className={classes.boldText}>Website </span><span className={classes.normalText}>Developement</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col className={classes.mobileStyle}>
-          <Card className={classes.ourservices}>
-            <Card.Img variant="top" className={classes.imageStyle} src={seo} />
-            <Card.Body>
+          <Card className={classes.cardDesign}>
+            <Card.Img 
+              variant="top" 
+              className={classes.iconStyle}
+              src={seo} />
+            <Card.Body className={classes.textSeoContainer}>
               <Card.Title>
-                Search Engine{" "}
-                <span className={classes.boldText}>Optimization</span>
+                <span className={classes.normalText}>Search Engine</span>
+                <span className={classes.boldText}> Optimization</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col className={classes.mobileStyle} id={classes.em}>
-          <Card className={classes.ourservices}>
+        <Col className={classes.mobileStyle}>
+          <Card className={classes.cardDesign}>
             <Card.Img
               variant="top"
-              className={classes.imageStyle}
+              className={classes.iconStyle}
               src={Email}
             />
             <Card.Body>
-              <Card.Title>
-                <span className={classes.boldText}>Email</span> marketing
+              <Card.Title className={classes.textEmailContainer}>
+                <span className={classes.boldText}>Email </span><span className={classes.normalText}>marketing</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col className={classes.mobileStyle} id={classes.sp}>
-          <Card className={classes.ourservices}>
+        <Col id={classes.rowTopCard}>
+          <Card className={classes.cardDesign}>
             <Card.Img
               variant="top"
-              className={classes.imageStyle}
+              className={classes.iconStyle}
               src={Social}
             />
             <Card.Body>
-              <Card.Title>
-                Social Media <span className={classes.boldText}>Marketing</span>
+              <Card.Title className={classes.textContainer}>
+                <span className={classes.normalText}>Social Media </span><span className={classes.boldText}>Marketing</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col className={classes.mobileStyle} id={classes.sp}>
-          <Card className={classes.ourservices}>
-            <Card.Img variant="top" className={classes.imageStyle} src={Ads} />
+        <Col id={classes.rowTopCard}>
+          <Card className={classes.cardDesign}>
+            <Card.Img 
+              variant="top" 
+              className={classes.iconStyle}
+              src={Ads} />
             <Card.Body>
-              <Card.Title className={classes.paidTextStyle}>
-                Paid <span className={classes.boldText}>Ads</span>
+              <Card.Title className={classes.textPaidContainer}>
+                <span className={classes.normalText}>Paid </span><span className={classes.boldText}>Ads</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col className={classes.mobileStyle} id={classes.sp}>
-          <Card className={classes.ourservices} id="creativeDevelopement">
+        <Col id={classes.rowTopCard}>
+          <Card className={classes.cardDesign}>
             <Card.Img
               variant="top"
-              className={classes.imageStyle}
+              className={classes.iconStyle}
               src={Creative}
             />
             <Card.Body>
-              <Card.Title>
-                Creative <span className={classes.boldText}>Developement</span>
+              <Card.Title className={classes.textContainer}>
+                <span className={classes.boldText}>Creative </span><span className={classes.normalText}>Developement</span>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-      <Row className="mt-5"></Row>
     </Container>
   );
 }

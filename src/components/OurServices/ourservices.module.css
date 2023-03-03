@@ -8,32 +8,69 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.imageStyle{
+.iconStyle{
     width: fit-content;
     height: 4em;
-    margin-left: 6em;
+    margin-left: 1em;
 }
-.ourservices{
+#seoText{
+    position: absolute;
+    margin-right: 6em;
+    margin-top: 1em;
+}
+.seoTitle{
+    position: absolute;
+    margin-top: 1em;
+}
+.cardDesign{
      width: 18rem;
      padding: 1em;
      height: 12rem ;
      position: relative;
      z-index: -1;
+     border-radius: 1em;
+     box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(84, 84, 84, 0.19);
 }
 .Container{
     max-width: 70rem;
+}
+.normalText{
+    font-weight: 400;
+}
+#rowTopCard{
+    margin-top: 1.5em;
+}
+.textContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+}
+
+.textSeoContainer{
+    padding-left: 0.5em;
+    margin-top: 1em;
+    text-align: initial;
+}
+
+.textPaidContainer{
+    padding-left: 0em;
+    text-align: initial;
     margin-top: 1em;
 }
-#sp{
+
+.textEmailContainer{
+    padding-left: 0em;
+    text-align: initial;
     margin-top: 1em;
 }
+
 
 
 @media only screen and (max-width: 680px) {
-    .ourservices{
+    .cardDesign{
         width: auto;
     }
-    .imageStyle{
+    .iconStyle{
         width: fit-content;
         height: 4em;
         margin-left: 8em;
@@ -43,6 +80,7 @@
     }
     .paidTextStyle{
         margin-right: 1em;
+        margin-top: 1em;
     }
     /* #rowLeft{
         margin-left: 0.5em;

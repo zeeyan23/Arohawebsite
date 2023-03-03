@@ -27,7 +27,7 @@ router.post("/register",(req,res)=>{
             from:process.env.EMAIL,
             to:process.env.EMAIL,
             subject:`${req.body.enteredFirstName} has just showed interest`,
-            html:`<h3>Hi</h3><p>Entered Details are as follows----------</p><br />
+            html:`<h3>Hi</h3><h4>Entered Details are as follows----------</h4><br />
             <strong>Name:</strong> ${req.body.enteredFirstName} ${req.body.enteredLastName}<br />
             <strong>Email:</strong> ${req.body.enteredEmail}<br />
             <strong>Contact Number:</strong> ${req.body.enteredNum}<br />

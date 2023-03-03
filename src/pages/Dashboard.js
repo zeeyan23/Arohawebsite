@@ -27,7 +27,7 @@ function Dashboard() {
                 Solution by</p>
                 <span className={classes.spanText}> Aroha Group</span> */}
               </h1>
-              <h4 className={classes.quest}>Who we are?</h4>
+              <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
               <p className={classes.aboutUs}>
               Aroha group is a full
               service digital marketing agency that
@@ -36,18 +36,20 @@ function Dashboard() {
               wide range of digital marketing services, including search engine
               optimization (SEO), pay per click (PPC) advertising, social media
               marketing, content marketing, email marketing and website
-              design and development.
-              We understand that every business is unique, and we work
-              closely with our clients to develop custom strategies that are
-              tailored to their specific needs. Our data-driven approach and
-              focus on measurable results ensures that our clients see a
-              positive return on their investment.
+              design and development.<br />
+                <p className={classes.aboutUsAnother}>
+                  We understand that every business is unique, and we work
+                  closely with our clients to develop custom strategies that are
+                  tailored to their specific needs. Our data-driven approach and
+                  focus on measurable results ensures that our clients see a
+                  positive return on their investment.
+                </p>
               </p>
               <Alert variant='info' className={classes.alertBox}>
                 Let's Connect  <FontAwesomeIcon icon={faArrowCircleRight} />
               </Alert>
             </Col>
-            <Col xs={6} className='mt-5'>
+            <Col xs={6} className={classes.formTop}>
               <ConnectForm />
             </Col>
           </Row>
