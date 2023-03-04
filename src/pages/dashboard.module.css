@@ -8,6 +8,9 @@
     background-color: darkblue;
     height: 8em;
 }
+.mobileCont{
+    display: none;
+}
 .modalTextStyle{
     margin-left: 44%;
 }
@@ -35,7 +38,7 @@
 }
 .mainHeading{
     text-align: left;
-    margin-left: 1em;
+    /* margin-left: 1em; */
     margin-top: 4em;
 }
 .Footer{
@@ -119,7 +122,9 @@ font-family:'Poppins', sans-serif;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
-
+.mobile{
+    display: none;
+}
 .heading2{
     
     letter-spacing: 3px;
@@ -162,6 +167,7 @@ font-family:'Poppins', sans-serif;
     }
     .quest{
         margin-left: auto;
+        font-size: 1.2em;
     }
     .spanText{
         line-height: normal;
@@ -169,16 +175,31 @@ font-family:'Poppins', sans-serif;
     }
     .alertBox{
         margin-left: auto;
+        display: none;
     }
     .aboutUs{
         margin-left: auto;
         line-height: 2em;
     }
+    
     .mainHeading{
         margin-top: 1em;
+        display: flex;
+        flex-direction: column-reverse;
     }
+    .mobile{
+        display: block;
+        z-index: -1;
+        width: 24em;
+    }
+    /* .heading2{
+        display: flex;
+    } */
     .formTop{
         margin-top: 0em;
+    }
+    .mobileCont{
+        display: block;
     }
     .digi{
     
@@ -203,6 +224,15 @@ font-family:'Poppins', sans-serif;
     .btnflat{
         margin-left: 0em;
     }
+    
+    #mobileStyle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .noMobile{
+        display: none;
+    }
+
   }
 
   @media only screen and (min-width: 768px){
@@ -255,4 +285,5 @@ font-family:'Poppins', sans-serif;
     .btnflat{
         margin-left: 7em;
     } 
+
  }
