@@ -2,7 +2,8 @@
     font-weight: 800;
     letter-spacing: 2px;
     /* font-size: xx-large; */
-    font-family: 'Poppins', sans-serif;
+    font-family:"Orbitron", Sans-serif;
+    font-style: italic;
 }
 .boldText{
     font-weight: bold;
@@ -13,6 +14,15 @@
     width: fit-content;
     height: 4em;
     margin-left: 1em;
+}
+.gradText{
+    background-image: linear-gradient(#FFB621, #F57373);
+   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  display: inline-block;
+  width: 7em;
 }
 #seoText{
     position: absolute;
