@@ -104,3 +104,11 @@
     }
   }
   
+  @media only screen and (max-width: 1400px){
+    .nav{
+      height: 4em;
+    }
+    .containerNav{
+      top: 2em;
+    }
+  }
