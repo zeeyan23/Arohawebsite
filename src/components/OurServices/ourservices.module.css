@@ -88,6 +88,11 @@
         height: 4em;
         margin-left: 9em;
     }
+    .mobileOnly{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
     .mobileStyle{
         margin-top: 1.3em;
     }
@@ -102,7 +107,9 @@
         text-align: center;
     }
     .textSeoContainer{
-        text-align: center;
+        justify-content: center;
+    display: flex;
+    margin-left: 3em;
     }
     .textPaidContainer{
         text-align: center;
@@ -146,7 +153,44 @@
  }
 
  @media only screen and (max-width: 1400px){
-    
+  .boldText1{
+    font-size: 1.7em;
+  }  
+  .cardDesign{
+    height: 9em;
+  }
+  .iconStyle{
+    height: 3em;
+  }
+  .textContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+  }
+  .textSeoContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    position: absolute;
+    top: 3em;
+  }
+  .textEmailContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+  }
+  .textPaidContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+  }
+  
  }
 
 

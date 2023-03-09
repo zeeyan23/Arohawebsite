@@ -23,7 +23,7 @@ function OurServices() {
               className={classes.iconStyle}
               src={webImage}
             />
-            <Card.Body>
+            <Card.Body className={classes.mobileOnly}>
               <Card.Title className={classes.textContainer}>
                 <span className={classes.boldText}>Website </span><span className={classes.normalText}>Developement</span>
               </Card.Title>
@@ -51,7 +51,7 @@ function OurServices() {
               className={classes.iconStyle}
               src={Email}
             />
-            <Card.Body>
+            <Card.Body className={classes.mobileOnly}>
               <Card.Title className={classes.textEmailContainer}>
                 <span className={classes.boldText}>Email </span><span className={classes.normalText}>marketing</span>
               </Card.Title>
@@ -65,7 +65,7 @@ function OurServices() {
               className={classes.iconStyle}
               src={Social}
             />
-            <Card.Body>
+            <Card.Body className={classes.mobileOnly}>
               <Card.Title className={classes.textContainer}>
                 <span className={classes.normalText}>Social Media </span><span className={classes.boldText}>Marketing</span>
               </Card.Title>
@@ -78,7 +78,7 @@ function OurServices() {
               variant="top" 
               className={classes.iconStyle}
               src={Ads} />
-            <Card.Body>
+            <Card.Body className={classes.mobileOnly}>
               <Card.Title className={classes.textPaidContainer}>
                 <span className={classes.normalText}>Paid </span><span className={classes.boldText}>Ads</span>
               </Card.Title>
@@ -92,7 +92,7 @@ function OurServices() {
               className={classes.iconStyle}
               src={Creative}
             />
-            <Card.Body>
+            <Card.Body className={classes.mobileOnly}>
               <Card.Title className={classes.textContainer}>
                 <span className={classes.boldText}>Creative </span><span className={classes.normalText}>Developement</span>
               </Card.Title>

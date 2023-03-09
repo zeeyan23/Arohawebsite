@@ -51,6 +51,7 @@
     margin-left: 2.4em;
     line-height: 2em;
     font-size: 1.1em;
+    z-index: -1;
     /* text-align: justify; */
 }
 .btnflat {
@@ -196,7 +197,7 @@ font-family:'Poppins', sans-serif;
         display: flex;
     } */
     .formTop{
-        margin-top: 0em;
+        margin-top: 3em;
     }
     .mobileCont{
         display: block;
@@ -233,6 +234,8 @@ font-family:'Poppins', sans-serif;
         display: none;
     }
 
+
+
   }
 
   @media only screen and (min-width: 768px){
@@ -248,6 +251,10 @@ font-family:'Poppins', sans-serif;
     }
     .mainHeading{
         margin-top: 1em;
+    }
+    .aboutUs{
+        position: relative;
+        bottom: 3em;
     }
     .spanText{
         line-height: normal;
@@ -284,6 +291,10 @@ font-family:'Poppins', sans-serif;
     }  
     .btnflat{
         margin-left: 7em;
+    }
+    .aboutUs{
+        position: relative;
+        bottom: 0em;
     } 
 
  }
@@ -298,16 +309,21 @@ font-family:'Poppins', sans-serif;
         font-size: 2em;
     }
     .formTop{
-        margin-top: -3em;
+        margin-top: 0em;
+        position: relative;
+        bottom: 3em;
+        z-index: -1;
     }
     .alertBox{
         margin-top: 0em;
     }
     .aboutUs{
         line-height: 1.5em;
+        font-size: 1em;
+        z-index: -1;
     }
-    .quest{
-        padding-bottom: 0.1em;
-    }
+    /* .quest{
+        padding-bottom: 3.1em;
+    } */
 
  }
