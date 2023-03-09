@@ -143,19 +143,19 @@
     height: 3em;
   }
   .cardDesign{
-    height: 9em;
+    height: 7em;
   }
   .textContainer{
     padding-left: 0em;
     padding-top: 1em;
     text-align: initial;
-    bottom: 1.5em;
+    bottom: 0.5em;
     position: absolute;
     font-size: initial;
   }
   .textSeoContainer{
     padding-left: 0em;
-    padding-top: 1em;
+    bottom: 0.5em;
     text-align: initial;
     position: absolute;
     font-size: initial;
@@ -164,7 +164,7 @@
     padding-left: 0em;
     padding-top: 1em;
     text-align: initial;
-    bottom: 1.5em;
+    bottom: 0.5em;
     position: absolute;
     font-size: initial;
   }
@@ -172,7 +172,7 @@
     padding-left: 0em;
     padding-top: 1em;
     text-align: initial;
-    bottom: 1.5em;
+    bottom: 0.5em;
     position: absolute;
     font-size: initial;
   }
@@ -278,6 +278,9 @@
 
 .cardContainerTablet{
     margin-top: 3em;
+}
+#EM{
+  bottom: 1.5em;position: relative;
 }
   /* .cardDesign{
     height: 12em;

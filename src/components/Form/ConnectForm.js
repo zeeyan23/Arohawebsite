@@ -165,7 +165,7 @@ export const ConnectForm = () => {
                   placeholder="First name"
                   value={enteredFirstName}
                   onChange={firstNameChangeHandler}
-                  size={classes.smallInput}
+                  
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide name.

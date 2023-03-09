@@ -144,9 +144,9 @@ font-family:'Poppins', sans-serif;
 
         
     }
-.formTop{
+/* .formTop{
     margin-top: 4em;
-}
+} */
 .aboutUsAnother{
     margin-top: 0.2em;
 }
@@ -310,17 +310,11 @@ font-family:'Poppins', sans-serif;
     }
     .formTop{
         display: none;
-        margin-top: auto;
-        bottom: 2.5em;
-        z-index: -1;
-        position: relative;
     }
     .formTopTablet{
         display: block;
         margin-top: 3em;
         bottom: 5.5em;
-        z-index: -1;
-        position: relative;
     }
     .quest{
         margin-left: auto;
@@ -362,6 +356,7 @@ font-family:'Poppins', sans-serif;
     }
     .formTop{
         display: block;
+        
     }
     .heading1{
         font-size: revert;
@@ -373,7 +368,8 @@ font-family:'Poppins', sans-serif;
         z-index: -1;
     }
     .flexDirection{
-        margin-top: 4em;
+        margin-top: 1em;
+        padding-bottom: 2.5em;
     }
     .btnflat{
         margin-left: 7em;
