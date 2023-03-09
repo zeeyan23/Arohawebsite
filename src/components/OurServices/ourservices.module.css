@@ -108,8 +108,9 @@
     }
     .textSeoContainer{
         justify-content: center;
-    display: flex;
-    margin-left: 3em;
+        margin-left: 1em;
+        /* margin-top: 5em; */
+        display: flow-root;
     }
     .textPaidContainer{
         text-align: center;
@@ -181,25 +182,128 @@
 
  @media only screen and (min-width: 1200px){
   .boldText1{
-    font-size: 1.7em;
-  }  
-  .cardDesign{
-    height: 9em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    /* font-size: xx-large; */
+    font-family:"Orbitron", Sans-serif;
+    font-style: italic;
+}
+.boldText{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iconStyle{
+    width: fit-content;
+    height: 4em;
+    margin-left: 1em;
+}
+.gradText{
+    background-image: linear-gradient(#FFB621, #F57373);
+   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  display: inline-block;
+  width: 7em;
+}
+#seoText{
+    position: absolute;
+    margin-right: 6em;
+    margin-top: 1em;
+}
+.seoTitle{
+    position: absolute;
+    margin-top: 1em;
+}
+.cardDesign{
+     width: 18rem;
+     padding: 1em;
+     height: 12rem ;
+     position: relative;
+     z-index: -1;
+     border-radius: 1em;
+     box-shadow: 0 4px 8px 0 rgba(53, 53, 53, 0.1), 0 6px 20px 0 rgba(54, 54, 54, 0.1);
+}
+.Container{
+    max-width: 70rem;
+}
+.normalText{
+    font-weight: 400;
+}
+#rowTopCard{
+    margin-top: 1.5em;
+}
+.textContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: larger;
+}
+
+.textSeoContainer{
+  /* padding-left: 0em;
+  padding-top: 1em;
+  text-align: initial;
+  bottom: 1.5em;
+  position: absolute;
+  font-size: larger; */
+  justify-content: center;
+  margin-left: 1em;
+  /* margin-top: 5em; */
+  bottom: 1.2em;
+  display: flow-root;
+  font-size: larger;
+}
+
+.textPaidContainer{
+  padding-left: 0em;
+  padding-top: 1em;
+  text-align: initial;
+  bottom: 1.5em;
+  position: absolute;
+  font-size: larger;
+}
+
+.textEmailContainer{
+  padding-left: 0em;
+  padding-top: 1em;
+  text-align: initial;
+  bottom: 1.5em;
+  position: absolute;
+  font-size: larger;
+}
+
+.cardContainerTablet{
+    margin-top: 3em;
+}
+  /* .cardDesign{
+    height: 12em;
   }
-  
+  .boldText1{
+    font-size: 2.5em;
+  }
+  .iconStyle{
+    width: fit-content;
+    height: 4em;
+    margin-left: 1em;
+}
   .textContainer{
     padding-left: 0em;
     padding-top: 1em;
     text-align: initial;
     bottom: 1.5em;
     position: absolute;
+    font-size: larger;
   }
   .textSeoContainer{
     padding-left: 0em;
     padding-top: 1em;
     text-align: initial;
     position: absolute;
-    top: 3em;
+    font-size: larger;
   }
   .textEmailContainer{
     padding-left: 0em;
@@ -207,6 +311,7 @@
     text-align: initial;
     bottom: 1.5em;
     position: absolute;
+    font-size: larger;
   }
   .textPaidContainer{
     padding-left: 0em;
@@ -214,7 +319,8 @@
     text-align: initial;
     bottom: 1.5em;
     position: absolute;
-  }
+    font-size: larger;
+  } */
   
  }
 

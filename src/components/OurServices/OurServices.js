@@ -36,7 +36,7 @@ function OurServices() {
               variant="top" 
               className={classes.iconStyle}
               src={seo} />
-            <Card.Body className={classes.textSeoContainer}>
+            <Card.Body>
               <Card.Title className={classes.textSeoContainer}>
                 <span className={classes.normalText}>Search Engine</span>
                 <span className={classes.boldText}> Optimization</span>
