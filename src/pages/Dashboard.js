@@ -9,26 +9,43 @@ import classes from "../pages/dashboard.module.css";
 import About from "../components/About/About";
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Dashboard() {
   return (
     <>
       <div>
         <Header className={classes.headerStyle} />
         <Container className={classes.textForm}>
+          <div className={classes.onlyTablet}>
+          <h1 className={classes.heading1}>
+              <span className={classes.digi}>360⁰ Digital </span>
+              <span className={classes.marketingText}>Marketing</span>
+              <span className={classes.heading2}> Solution by </span>
+              <span className={classes.spanText}>Aroha Group</span>
+            </h1>
+          </div>
+            
             <div className={classes.mobileCont}>
-            <h1 className={classes.heading1}>
-                <span className={classes.digi}>360⁰ Digital </span><span className={classes.marketingText}>Marketing</span>
-                <div><span className={classes.heading2}> Solution by </span><span className={classes.spanText}>Aroha Group</span></div>
+              <h1 className={classes.heading1}>
+                <span className={classes.digi}>360⁰ Digital Marketing</span>
+                <div>
+                    <span className={classes.heading2}> Solution by </span>
+                    <span  className={classes.spanText}>Aroha Group</span>
+                </div>
               </h1>
               <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
             </div>
           <Row className={classes.flexDirection} id={classes.mobileStyle}>
             <Col className={classes.mainHeading}>
               <div className={classes.noMobile}>
-              <h1 className={classes.heading1}>
-                <span className={classes.digi}>360⁰ Digital </span><span className={classes.marketingText}>Marketing</span><span className={classes.heading2}> Solution by </span><span className={classes.spanText}>Aroha Group</span>
-              </h1>
+                <h1 className={classes.heading1}>
+                  <span className={classes.digi}>360⁰ Digital </span><span className={classes.marketingText}>Marketing</span><span className={classes.heading2}> Solution by </span><span className={classes.spanText}>Aroha Group</span>
+                </h1>
               <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
+              </div>
+              <div className={classes.onlyTablet}>
+                
+              <h4 className={classes.quest}>Explore New Business <span className="d-block">Solutions With Us</span></h4>
               </div>
               
               <p className={classes.aboutUs}>
@@ -49,7 +66,13 @@ function Dashboard() {
               </Alert>
             </Col>
             <Col xs={6} className={classes.formTop}>
-            <Alert variant='info' className={classes.mobile}>
+              <Alert variant='info' className={classes.mobile}>
+                Let's Connect  <FontAwesomeIcon icon={faArrowCircleRight} />
+              </Alert>
+              <ConnectForm />
+            </Col>
+            <Col xs={8} className={classes.formTopTablet}>
+              <Alert variant='info' className={classes.mobile}>
                 Let's Connect  <FontAwesomeIcon icon={faArrowCircleRight} />
               </Alert>
               <ConnectForm />

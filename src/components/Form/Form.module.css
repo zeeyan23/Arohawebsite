@@ -76,15 +76,19 @@ margin-right: 90%;
       margin-top: auto;
     }
   }
-
-  @media only screen and (min-width: 768px){
+  @media only screen and (min-width: 600px){
+    
     .Form{
-      width: max-content;
+      width: auto;
     }
     .btnflat{
       margin-top: auto;
     }
+    .smallInput{
+     
+    }
   }
+
  
 
   

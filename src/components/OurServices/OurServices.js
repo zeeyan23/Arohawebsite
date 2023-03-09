@@ -11,7 +11,7 @@ function OurServices() {
   return (
     <Container className={classes.Container} id="services">
       <Row>
-        <Col className="mt-5">
+        <Col className="mt-5" id={classes.forTablet}>
           <h1 className={classes.boldText1}>OUR <span className={classes.gradText}>SERVICES</span></h1>
         </Col>
       </Row>
@@ -37,7 +37,7 @@ function OurServices() {
               className={classes.iconStyle}
               src={seo} />
             <Card.Body className={classes.textSeoContainer}>
-              <Card.Title>
+              <Card.Title className={classes.textSeoContainer}>
                 <span className={classes.normalText}>Search Engine</span>
                 <span className={classes.boldText}> Optimization</span>
               </Card.Title>

@@ -124,7 +124,7 @@
    
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
    #em{
     margin-top: 1em;
    }
@@ -135,33 +135,58 @@
    #EM{
     margin-top: 1.2em;
    }
+   #forTablet{
+    margin-top: 0em;
+   }
+   .iconStyle{
+    height: 3em;
+  }
+  .cardDesign{
+    height: 9em;
+  }
+  .textContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: initial;
+  }
+  .textSeoContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    position: absolute;
+    font-size: initial;
+  }
+  .textEmailContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: initial;
+  }
+  .textPaidContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: initial;
+  }
 }
 
-@media only screen and (min-width: 1024px){
-    #em{
-     margin-top: 0em;
-    }
-    #rowLeft{
-        margin-left: 0em;
-    }
-    .mobileStyle{
-        margin-top: 0em;
-    }
-    #EM{
-        margin-top: 0em;
-    }
- }
 
- @media only screen and (max-width: 1400px){
+
+ @media only screen and (min-width: 1200px){
   .boldText1{
     font-size: 1.7em;
   }  
   .cardDesign{
     height: 9em;
   }
-  .iconStyle{
-    height: 3em;
-  }
+  
   .textContainer{
     padding-left: 0em;
     padding-top: 1em;
