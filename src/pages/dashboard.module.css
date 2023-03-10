@@ -79,7 +79,7 @@
 }
 
 .alertBox{
-    margin-top: 2em;
+    bottom: 30em;
     margin-left: 2em;
     text-align: center;
     font-weight: bold;
@@ -338,7 +338,7 @@ font-family:'Poppins', sans-serif;
  }
 
  /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1440px) {
 
 }
 
@@ -374,6 +374,9 @@ font-family:'Poppins', sans-serif;
     .btnflat{
         margin-left: 7em;
     }
+    .alertBox{
+        bottom: 3em;
+    }
     /* .imageResStyle{
         display: block;
     }
@@ -398,3 +401,13 @@ font-family:'Poppins', sans-serif;
     } */
 
  }
+
+ @media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    /* your styles here */
+    .aboutUs{
+        line-height: 2em;
+        font-size: 1em;
+        z-index: -1;
+    }
+  
+  }

@@ -327,4 +327,15 @@
   
  }
 
+ @media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  /* your styles here */
+  .cardDesign{
+    height: 9.5em;
+  }
+  .iconStyle{
+    width: fit-content;
+    height: 3em;
+    margin-left: 1em;
+  }
 
+}

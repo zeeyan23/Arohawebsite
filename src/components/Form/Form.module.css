@@ -4,7 +4,7 @@ Form{
     margin: auto;
     /* margin-right: 45%; */
     /* height: 25em; */
-    margin-top: 3em;
+    margin-top: 1em;
     border-radius: 1em;
     padding: 3em;
     padding-bottom: 5em;
@@ -25,6 +25,7 @@ Form{
     margin-top: 5%;
   
 }
+
 .btnflat {
   background-color:rgba(255, 166, 0, 0.799);
   color: white;
