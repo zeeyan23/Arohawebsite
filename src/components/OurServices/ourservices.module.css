@@ -330,12 +330,54 @@
  @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   /* your styles here */
   .cardDesign{
-    height: 9.5em;
+    height: 8.8em;
   }
   .iconStyle{
     width: fit-content;
     height: 3em;
     margin-left: 1em;
+  }
+
+  .boldText1{
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: 2px;
+    /* font-size: xx-large; */
+    font-family:"Orbitron", Sans-serif;
+    font-style: italic;
+  }
+  .textContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: inherit;
+  }
+  .textSeoContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    position: absolute;
+    bottom: 1.5em;
+    right: 3em;
+    font-size: inherit;
+  }
+  .textEmailContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: inherit;
+  }
+  .textPaidContainer{
+    padding-left: 0em;
+    padding-top: 1em;
+    text-align: initial;
+    bottom: 1.5em;
+    position: absolute;
+    font-size: inherit;
   }
 
 }

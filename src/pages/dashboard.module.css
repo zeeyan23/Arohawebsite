@@ -406,8 +406,16 @@ font-family:'Poppins', sans-serif;
     /* your styles here */
     .aboutUs{
         line-height: 2em;
-        font-size: 1em;
+        font-size: 1.01em;
         z-index: -1;
+    }
+
+    .heading1{
+        font-size: 2.3em;
+    }
+
+    .alertBox{
+        bottom: 2em;
     }
   
   }

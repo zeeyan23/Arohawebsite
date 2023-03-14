@@ -35,6 +35,7 @@ export const ConnectForm = () => {
 
   const handleClose = () => setShow(false);
 
+ 
   function firstNameChangeHandler(e) {
     setEnteredFirstName(e.target.value);
   }
@@ -61,7 +62,7 @@ export const ConnectForm = () => {
   }
   const submitFormHandler = async(event) => {
     event.preventDefault();
-
+  
 
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
@@ -113,21 +114,23 @@ export const ConnectForm = () => {
         .catch((error) => {
           console.log(error);
         });
-        const res = await fetch("/register",{
-          method:"POST",
-          headers:{
-            "Content-Type":"application/json"
-          },body:JSON.stringify({
-            enteredFirstName,
-            enteredLastName,
-            enteredDescription,
-            enteredCompanyName,
-            enteredLocation,
-            enteredNum,
-            enteredEmail
-          })
-        })
-        console.log(res)
+        const config={
+          SecureToken:'75ddfdaa-40c0-438d-bfb2-8323ef128647',
+          To : 'zeeyanraza444@gmail.com',
+          From : "zeeyanraza444@gmail.com",
+          Subject : `${enteredFirstName} has reached out to you`,
+          Body : `<h3>Entered Details are as follows----------</h3><br />
+          <strong>Name:</strong> ${enteredFirstName} ${enteredLastName}<br />
+          <strong>Email:</strong> ${enteredEmail}<br />
+          <strong>Contact Number:</strong> ${enteredNum}<br />
+          <strong>Company Name:</strong> ${enteredCompanyName}<br />
+          <strong>Location:</strong> ${enteredLocation}<br />
+          <strong>Comments:</strong> ${enteredDescription}</br />`
+        }
+
+        if(window.Email){
+          window.Email.send(config)
+        }        
     }
     setValidated(true);
 
