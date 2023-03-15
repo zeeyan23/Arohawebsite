@@ -189,6 +189,7 @@
     /* font-size: xx-large; */
     font-family:"Orbitron", Sans-serif;
     font-style: italic;
+    font-size: 3em;
 }
 .boldText{
     font-weight: bold;
@@ -219,7 +220,7 @@
     margin-top: 1em;
 }
 .cardDesign{
-     width: 18rem;
+     width: 20rem;
      padding: 1em;
      height: 12rem ;
      position: relative;
@@ -253,9 +254,9 @@
   position: absolute;
   font-size: larger; */
   justify-content: center;
-  margin-left: 1em;
+  /* margin-left: 1em; */
   /* margin-top: 5em; */
-  bottom: 1.2em;
+  bottom: 1.5em;
   display: flow-root;
   font-size: larger;
 }
@@ -342,7 +343,7 @@
 
   .boldText1{
     font-weight: 800;
-    font-size: 2em;
+    font-size: 2.1em;
     letter-spacing: 2px;
     /* font-size: xx-large; */
     font-family:"Orbitron", Sans-serif;

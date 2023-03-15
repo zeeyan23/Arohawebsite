@@ -8,6 +8,7 @@
 }
 #mailText{
   font-weight: lighter;
+  margin-left: -2.8em;
 }
 .textColor{
   color: rgb(182, 180, 180);
@@ -36,6 +37,7 @@
   display: contents;
   color: rgb(182, 180, 180);
   bottom: 2em;
+  text-decoration: none;
   font-size: 0.9em;
     padding-bottom: 1em;
     margin-right: 2%;
@@ -121,9 +123,19 @@
     .colStyleArticle{
       text-align: initial;
     }
-    
+  }
 
-    
+  @media only screen and (min-width: 600px){
+    .mailTextColor{
+      display: block;
+    }
+    #rowStyle{
+      width: 18em;
+    }
+    .mailLinkContainer{
+      margin-right: 3em;
+    }
+
   }
   
   

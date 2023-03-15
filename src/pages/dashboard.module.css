@@ -65,10 +65,10 @@
     
       width: 10em;
       font-family: 'Poppins', sans-serif;
-      margin-top: 1.6em;
+      margin-top: 2.3em;
       margin-left: 7em;
       border: none;
-      padding: 1em;
+      padding: 0.8em;
       border-radius: 1em;
       transition: transform 0.2s ease-in-out;
 
@@ -87,8 +87,7 @@
     font-size: larger;
 }
 .heading{
-    
-letter-spacing: 3px;
+
 /* margin-left: 3em; */
 z-index: -1;
     font-weight: 800;
@@ -99,8 +98,6 @@ z-index: -1;
     
 }
 .heading1{
-    
-letter-spacing: 3px;
 font-family:'Poppins', sans-serif;
     font-weight: bolder;
     background: linear-gradient(rgb(7, 7, 80),rgb(38, 38, 56));
@@ -110,8 +107,6 @@ font-family:'Poppins', sans-serif;
     
 }
 .marketingText{
-        
-    letter-spacing: 3px;
     font-family:'Poppins', sans-serif;
         font-weight: bolder;
         background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
@@ -120,8 +115,6 @@ font-family:'Poppins', sans-serif;
       -webkit-text-fill-color: transparent;
 }
 .digi{
-        
-    letter-spacing: 3px;
     font-family:'Poppins', sans-serif;
         font-weight: bolder;
         background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
@@ -133,8 +126,6 @@ font-family:'Poppins', sans-serif;
     display: none;
 }
 .heading2{
-    
-    letter-spacing: 3px;
     font-family:'Poppins', sans-serif;
         font-weight: bolder;
         background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
@@ -282,7 +273,7 @@ font-family:'Poppins', sans-serif;
        
     }
     .heading1{
-        font-size: 1.3em;
+        font-size: 2.5em;
         text-align: left;
     }
     .mainHeading{
@@ -313,7 +304,7 @@ font-family:'Poppins', sans-serif;
     }
     .formTopTablet{
         display: block;
-        margin-top: 3em;
+        margin-top: 0.5em;
         bottom: 5.5em;
     }
     .quest{
@@ -324,7 +315,7 @@ font-family:'Poppins', sans-serif;
     .aboutUs{
         margin-left: auto;
         line-height: normal;
-        font-size: smaller;
+        font-size: initial;
     }
     .btnflat{
         margin-left: 1em;
@@ -359,9 +350,10 @@ font-family:'Poppins', sans-serif;
         
     }
     .heading1{
-        font-size: 2.7em;
+        font-size: 2.8em;
         background: linear-gradient(rgb(5, 5, 53),rgb(20, 20, 29));
         z-index: -1;
+        font-family: 'Poppins', sans-serif;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           padding-bottom: 0.15em;
@@ -427,10 +419,11 @@ font-family:'Poppins', sans-serif;
         z-index: -1;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          font-family: 'Poppins', sans-serif;
     }
 
     .alertBox{
-        bottom: 2em;
+        /* bottom: 2em; */
     }
   
   }

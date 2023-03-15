@@ -170,7 +170,7 @@ export const ConnectForm = () => {
                   onChange={firstNameChangeHandler}
                   
                 />
-                <Form.Control.Feedback type="invalid">
+                <Form.Control.Feedback type="invalid" className={classes.test}>
                   Please provide name.
                 </Form.Control.Feedback>
               </Form.Group>
@@ -196,7 +196,7 @@ export const ConnectForm = () => {
                   value={enteredNum}
                   onChange={phoneNumChangeHandler}
                 />
-                <Form.Control.Feedback type="invalid">
+                <Form.Control.Feedback type="invalid" className={classes.test}>
                   Please enter number.
                 </Form.Control.Feedback>
               </Form.Group>
@@ -211,7 +211,7 @@ export const ConnectForm = () => {
                   value={enteredEmail}
                   onChange={emailChangeHandler}
                 />
-                <Form.Control.Feedback type="invalid">
+                <Form.Control.Feedback type="invalid" className={classes.test}>
                   Please enter e-mail address.
                 </Form.Control.Feedback>
               </Form.Group>
@@ -226,7 +226,7 @@ export const ConnectForm = () => {
                   value={enteredLocation}
                   onChange={locationChangeHandler}
                 />
-                <Form.Control.Feedback type="invalid">
+                <Form.Control.Feedback type="invalid" className={classes.test}>
                   Please provide location.
                 </Form.Control.Feedback>
               </Form.Group>
