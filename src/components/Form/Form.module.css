@@ -10,6 +10,9 @@ Form{
     padding-bottom: 5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.test{
+  text-align: initial;
+}
 .thankyou{
     width: 50%
 }
@@ -26,8 +29,10 @@ Form{
   
 }
 
+
 .btnflat {
-  background-color:rgba(255, 166, 0, 0.799);
+  background-image: linear-gradient(160deg,#ffb621 0%,#f57373 100%);
+  /* background-image: linear-gradient(to right,#ffb621,#f57373); */
   color: white;
   float: left;
     width: 10em;

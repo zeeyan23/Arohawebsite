@@ -24,17 +24,18 @@
 } */
 
 .linkText{
-    font-size: 20px;
+    font-size: 16px;
     margin: 1em;
-    font-weight: 700;
+    font-weight: normal;
+    color: rgb(62, 59, 59);
     font-family: 'Poppins', sans-serif;
 }
 .linkServicesText{
-    font-size: 20px;
+    font-size: 16px;
     margin: 1em;
-    font-weight: 700;
+    font-weight: normal;
     text-decoration: none;
-    color: grey;
+    color: rgb(62, 59, 59);
     margin-top: 1.4em;
     font-family: 'Poppins', sans-serif;
 }
