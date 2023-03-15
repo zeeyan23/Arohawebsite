@@ -50,7 +50,7 @@
 .Footer{
     background-image: linear-gradient(rgb(9, 9, 73), black);
         padding: 5;
-        margin-top: 2em;
+        margin-top: 2.35em;
 }
 
 .aboutUs{
@@ -65,7 +65,7 @@
     
       width: 10em;
       font-family: 'Poppins', sans-serif;
-      margin-top: 2.3em;
+      margin-top: 2.5em;
       margin-left: 7em;
       border: none;
       padding: 0.8em;
@@ -91,47 +91,44 @@
 /* margin-left: 3em; */
 z-index: -1;
     font-weight: 800;
-    background: linear-gradient(#f0f1f5,#0a0d1f);
+    color: black;
     font-family: 'Poppins', sans-serif;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ 
     
 }
 .heading1{
 font-family:'Poppins', sans-serif;
     font-weight: bolder;
-    background: linear-gradient(rgb(7, 7, 80),rgb(38, 38, 56));
+    color: black;
    z-index: -1;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
     
 }
 .marketingText{
+    letter-spacing: 2px;
     font-family:'Poppins', sans-serif;
         font-weight: bolder;
-        background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+        color: black;
        z-index: -1;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+ 
 }
 .digi{
+    letter-spacing: 2px;
     font-family:'Poppins', sans-serif;
         font-weight: bolder;
-        background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+        color: black;
        z-index: -1;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+
 }
 .mobile{
     display: none;
 }
 .heading2{
+    letter-spacing: 2px;
     font-family:'Poppins', sans-serif;
         font-weight: bolder;
-        background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+        color: black;
        z-index: -1;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
 
         
     }
@@ -142,6 +139,7 @@ font-family:'Poppins', sans-serif;
     margin-top: 0.2em;
 }
 .spanText{
+    letter-spacing: 2px;
     background-image: linear-gradient(#FFB621, #F57373);
     background-clip: 'text';
     -webkit-background-clip: text;
@@ -162,6 +160,8 @@ font-family:'Poppins', sans-serif;
     .heading1{
         font-size: 1.6em;
         text-align: left;
+
+       color: black;
     }
     .rowStyle{
         margin-top: 8em;
@@ -218,30 +218,27 @@ font-family:'Poppins', sans-serif;
         letter-spacing: 3px;
         font-family:'Poppins', sans-serif;
             font-weight: bolder;
-            background: linear-gradient(rgb(8, 8, 72),rgb(158, 158, 237));
+            color:black;
            z-index: -1;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          
             
     }
     .heading2{
         letter-spacing: 3px;
         font-family:'Poppins', sans-serif;
             font-weight: bolder;
-            background: linear-gradient(rgb(8, 8, 72),rgb(28, 28, 40));
+            color:black;
            z-index: -1;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          
           display: inline;
     }
     .marketingText{
         letter-spacing: 3px;
         font-family:'Poppins', sans-serif;
             font-weight: bolder;
-            background: linear-gradient(rgb(7, 7, 80),rgb(113 113 168));
+            color:black;
            z-index: -1;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          
     }
     .btnflat{
         margin-left: 0em;
@@ -273,8 +270,10 @@ font-family:'Poppins', sans-serif;
        
     }
     .heading1{
+        color:black;
         font-size: 2.5em;
         text-align: left;
+        
     }
     .mainHeading{
         margin-top: 1em;
@@ -351,11 +350,10 @@ font-family:'Poppins', sans-serif;
     }
     .heading1{
         font-size: 2.8em;
-        background: linear-gradient(rgb(5, 5, 53),rgb(20, 20, 29));
+       color:black;
         z-index: -1;
         font-family: 'Poppins', sans-serif;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          
           padding-bottom: 0.15em;
     }
     .aboutUs{
@@ -402,7 +400,14 @@ font-family:'Poppins', sans-serif;
     /* .formTop{
         display: block;
     } */
-
+    .Footer{
+        background-image: linear-gradient(rgb(9, 9, 73), black);
+            padding: 5;
+            margin-top: 2.35em;
+    }
+    .btnflat{
+        margin-top: 2.5em;
+    }
  }
 
  @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -415,15 +420,21 @@ font-family:'Poppins', sans-serif;
 
     .heading1{
         font-size: 2.3em;
-        background: linear-gradient(rgb(5, 5, 53),rgb(20, 20, 29));
+      color: black;
         z-index: -1;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          
           font-family: 'Poppins', sans-serif;
     }
-
+    .Footer{
+        background-image: linear-gradient(rgb(9, 9, 73), black);
+            padding: 5;
+            margin-top: 2.35em;
+    }
     .alertBox{
         /* bottom: 2em; */
+    }
+    .btnflat{
+        margin-top: 2.5em;
     }
   
   }

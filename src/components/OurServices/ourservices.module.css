@@ -10,7 +10,10 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
-
+.otherthanTablet{
+  margin-top: 2em;
+  padding-bottom: 0.7em;
+}
 .iconStyle{
     width: fit-content;
     height: 4em;
@@ -46,6 +49,7 @@
 }
 .Container{
     max-width: 70rem;
+    
 }
 .normalText{
     font-weight: 400;
@@ -124,7 +128,7 @@
     /* #rowLeft{
         margin-left: 0.5em;
     } */
-   
+
 }
 
 @media only screen and (min-width: 600px){
@@ -139,7 +143,7 @@
     margin-top: 1.2em;
    }
    #forTablet{
-    margin-top: 0em;
+    margin-top: 7em;
    }
    .iconStyle{
     height: 3em;
@@ -180,7 +184,12 @@
   }
 }
 
-
+@media only screen and (min-width: 768px){
+  .textSeoContainer{
+    margin-right: 2em;
+    margin-left: 0em;
+  }
+}
 
  @media only screen and (min-width: 1200px){
   .boldText1{
@@ -191,6 +200,8 @@
     font-style: italic;
     font-size: 3em;
 }
+
+
 .boldText{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -327,7 +338,9 @@
     position: absolute;
     font-size: larger;
   } */
-  
+  #forTablet{
+    margin-top: 1.7em;
+   }
  }
 
  @media only screen and (min-width: 1300px) and (max-width: 1399px) {

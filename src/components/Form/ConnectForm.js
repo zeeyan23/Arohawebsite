@@ -234,7 +234,7 @@ export const ConnectForm = () => {
                   Please enter e-mail address.
                 </Form.Control.Feedback>
                 {error && (
-                  <p style={{ color: "red", fontSize: 14, marginTop: "5%" }}>
+                  <p className={classes.invalidEmail}>
                     {error}
                   </p>
                 )}

@@ -38,9 +38,12 @@ function Dashboard() {
           <Row className={classes.flexDirection} id={classes.mobileStyle}>
             <Col className={classes.mainHeading}>
               <div className={classes.noMobile}>
-                <h1 className={classes.heading1}>
-                  <span className={classes.digi}>360⁰ Digital </span><span className={classes.marketingText}>Marketing</span><span className={classes.heading2}> Solution by </span><span className={classes.spanText}>Aroha Group</span>
-                </h1>
+              <h1 className={classes.heading1}>360⁰ Digital Marketing <br />Solution by <p className={classes.spanText}> Aroha Group </p></h1>
+                {/* <h1 className={classes.heading1}>
+                  <span className={classes.digi}>360⁰ Digital </span><span className={classes.marketingText}>Marketing</span><span className={classes.heading2}> Solution by </span>
+                  <span className={classes.spanText}>Aroha Group</span>
+                </h1> */}
+                
               <h4 className={classes.quest}>Explore New Business Solutions With Us</h4>
               </div>
               <div className={classes.onlyTablet}>

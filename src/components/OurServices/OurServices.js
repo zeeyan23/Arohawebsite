@@ -11,7 +11,7 @@ function OurServices() {
   return (
     <Container className={classes.Container} id="services">
       <Row>
-        <Col className="mt-5" id={classes.forTablet}>
+        <Col className={classes.otherthanTablet} id={classes.forTablet}>
           <h1 className={classes.boldText1}>OUR <span className={classes.gradText}>SERVICES</span></h1>
         </Col>
       </Row>
