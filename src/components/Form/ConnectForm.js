@@ -15,27 +15,32 @@ import { ThankYou } from "../ThankYou/ThankYou";
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
 
-
 export const ConnectForm = () => {
   const navigate = useNavigate();
   const [enteredFirstName, setEnteredFirstName] = useState("");
   const [enteredLastName, setEnteredLastName] = useState("");
   const [enteredNum, setEnteredNum] = useState("");
   const [enteredEmail, setEnteredEmail] = useState("");
+
+  const [enteredEmailTouched, setEnteredEmailTouched] = useState(false);
+  const emailRegex =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  const [error, setError] = useState(null);
+  // const enteredEmailIsValid = email;
+  // const EmailInputIsInValid = !enteredEmailIsValid && enteredEmailTouched;
   const [enteredDescription, setEnteredDescription] = useState("");
   const [enteredLocation, setEnteredLocation] = useState("");
   const [enteredPinCode, setEnteredPinCode] = useState("");
   const [enteredCompanyName, setEnteredCompanyName] = useState("");
   const [showThankYoupage, setShowThankYouPage] = useState(false);
 
-  const [email,setEmail]=useState("");
+  const [email, setEmail] = useState("");
   const [validated, setValidated] = useState(false);
 
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
 
- 
   function firstNameChangeHandler(e) {
     setEnteredFirstName(e.target.value);
   }
@@ -43,6 +48,11 @@ export const ConnectForm = () => {
     setEnteredLastName(e.target.value);
   }
   function emailChangeHandler(e) {
+    if (emailRegex.test(e.target.value)) {
+      setError(null);
+    } else {
+      setError("Invalid email");
+    }
     setEnteredEmail(e.target.value);
   }
   function phoneNumChangeHandler(e) {
@@ -60,9 +70,8 @@ export const ConnectForm = () => {
   function companyNameChangeHandler(e) {
     setEnteredCompanyName(e.target.value);
   }
-  const submitFormHandler = async(event) => {
+  const submitFormHandler = async (event) => {
     event.preventDefault();
-  
 
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
@@ -85,7 +94,6 @@ export const ConnectForm = () => {
       enteredLocation === ""
     ) {
       setValidated(false);
-      
     } else {
       axios
         .post(
@@ -114,29 +122,26 @@ export const ConnectForm = () => {
         .catch((error) => {
           console.log(error);
         });
-        const config={
-          SecureToken:'75ddfdaa-40c0-438d-bfb2-8323ef128647',
-          To : 'zeeyanraza444@gmail.com',
-          From : "zeeyanraza444@gmail.com",
-          Subject : `${enteredFirstName} has reached out to you`,
-          Body : `<h3>Entered Details are as follows----------</h3><br />
+      const config = {
+        SecureToken: "75ddfdaa-40c0-438d-bfb2-8323ef128647",
+        To: "zeeyanraza444@gmail.com",
+        From: "zeeyanraza444@gmail.com",
+        Subject: `${enteredFirstName} has reached out to you`,
+        Body: `<h3>Entered Details are as follows----------</h3><br />
           <strong>Name:</strong> ${enteredFirstName} ${enteredLastName}<br />
           <strong>Email:</strong> ${enteredEmail}<br />
           <strong>Contact Number:</strong> ${enteredNum}<br />
           <strong>Company Name:</strong> ${enteredCompanyName}<br />
           <strong>Location:</strong> ${enteredLocation}<br />
-          <strong>Comments:</strong> ${enteredDescription}</br />`
-        }
+          <strong>Comments:</strong> ${enteredDescription}</br />`,
+      };
 
-        if(window.Email){
-          window.Email.send(config)
-        }        
+      if (window.Email) {
+        window.Email.send(config);
+      }
     }
     setValidated(true);
-
-   
   };
-  
 
   return (
     <>
@@ -160,7 +165,12 @@ export const ConnectForm = () => {
             </Row> */}
 
             <Row className="mb-4">
-              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.mobileFieldStyle}>
+              <Form.Group
+                as={Col}
+                md="6"
+                controlId="validationCustom01"
+                className={classes.mobileFieldStyle}
+              >
                 {/* <Form.Label className={classes.label}>First Name</Form.Label> */}
                 <Form.Control
                   required
@@ -168,13 +178,17 @@ export const ConnectForm = () => {
                   placeholder="First name"
                   value={enteredFirstName}
                   onChange={firstNameChangeHandler}
-                  
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide name.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
+              <Form.Group
+                as={Col}
+                md="6"
+                controlId="validationCustom01"
+                className={classes.widthStyle}
+              >
                 {/* <Form.Label className={classes.label}>Last Name</Form.Label> */}
                 <Form.Control
                   type="text"
@@ -200,7 +214,12 @@ export const ConnectForm = () => {
                   Please enter number.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
+              <Form.Group
+                as={Col}
+                md="6"
+                controlId="validationCustom01"
+                className={classes.widthStyle}
+              >
                 {/* <Form.Label className={classes.label}>
                   E-mail Address
                 </Form.Label> */}
@@ -214,6 +233,11 @@ export const ConnectForm = () => {
                 <Form.Control.Feedback type="invalid">
                   Please enter e-mail address.
                 </Form.Control.Feedback>
+                {error && (
+                  <p style={{ color: "red", fontSize: 14, marginTop: "5%" }}>
+                    {error}
+                  </p>
+                )}
               </Form.Group>
             </Row>
             <Row className="mb-4">
@@ -244,7 +268,12 @@ export const ConnectForm = () => {
                   Please enter pincode.
                 </Form.Control.Feedback>
               </Form.Group> */}
-              <Form.Group as={Col} md="6" controlId="validationCustom01" className={classes.widthStyle}>
+              <Form.Group
+                as={Col}
+                md="6"
+                controlId="validationCustom01"
+                className={classes.widthStyle}
+              >
                 {/* <Form.Label className={classes.label}>Company Name</Form.Label> */}
                 <Form.Control
                   type="text"
