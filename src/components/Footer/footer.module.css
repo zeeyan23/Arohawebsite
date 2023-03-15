@@ -6,17 +6,27 @@
 .containerImage :hover{
   fill: gold;
 }
+#mailText{
+  font-weight: lighter;
+}
 .textColor{
-    color: white;
-    padding-top: 1em;
+  color: rgb(182, 180, 180);
+    /* padding-top: 1em; */
+    font-size: 0.9em;
     padding-bottom: 1em;
     text-decoration: none;
     text-align: initial;
     font-family: 'Poppins', sans-serif;
 }
+.arrowMark{
+  padding-right: 0.4em;
+  padding-top: 0.3em;
+  color: white;
+}
 .textHeadingStyle{
   display: contents;
   color: white;
+  font-weight: normal;
   padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Poppins', sans-serif;
@@ -24,14 +34,27 @@
 }
 .mailTextColor{
   display: contents;
-  color: white;
-  padding-top: 1em;
+  color: rgb(182, 180, 180);
+  bottom: 2em;
+  font-size: 0.9em;
     padding-bottom: 1em;
     margin-right: 2%;
     font-family: 'Poppins', sans-serif;
     
 }
-
+.arrowMark:hover{
+  color: gold;
+}
+.mailTextColor:hover{
+  color: gold;
+}
+.divider{
+  border-top: 2px solid rgb(255, 255, 255);
+  width: max-content;
+}
+#dividerCont{
+  width: max-content;
+}
 /* .articleStyle{
   padding-bottom: 1em;
 } */
@@ -44,6 +67,11 @@
 }
 .colStyleSrticle{
   padding: auto;
+}
+
+.copyRightText{
+  color: rgb(201, 198, 198);
+  font-weight: lighter;
 }
 
   @media only screen and (max-width: 680px) {

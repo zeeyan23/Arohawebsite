@@ -1,6 +1,7 @@
 .boldText1{
     font-weight: 800;
     letter-spacing: 2px;
+    margin-top: 1em;
     /* font-size: xx-large; */
     font-family:"Orbitron", Sans-serif;
     font-style: italic;
@@ -36,6 +37,7 @@
 .cardDesign{
      width: 18rem;
      padding: 1em;
+     border: none;
      height: 12rem ;
      position: relative;
      z-index: -1;

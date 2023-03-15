@@ -55,13 +55,13 @@
 
 .aboutUs{
     margin-left: 2.4em;
-    line-height: 2em;
+    line-height: 1em;
     font-size: 1.1em;
     z-index: -1;
     /* text-align: justify; */
 }
 .btnflat {
-    background-color:rgba(255, 166, 0, 0.799);
+    background-image: linear-gradient(160deg,#ffb621 0%,#f57373 100%);
     
       width: 10em;
       font-family: 'Poppins', sans-serif;
@@ -92,7 +92,7 @@ letter-spacing: 3px;
 /* margin-left: 3em; */
 z-index: -1;
     font-weight: 800;
-    background: linear-gradient(#3a51d9,#0a0d1f);
+    background: linear-gradient(#f0f1f5,#0a0d1f);
     font-family: 'Poppins', sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -103,7 +103,7 @@ z-index: -1;
 letter-spacing: 3px;
 font-family:'Poppins', sans-serif;
     font-weight: bolder;
-    background: linear-gradient(rgb(7, 7, 80),rgb(172, 172, 255));
+    background: linear-gradient(rgb(7, 7, 80),rgb(38, 38, 56));
    z-index: -1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -237,7 +237,7 @@ font-family:'Poppins', sans-serif;
         letter-spacing: 3px;
         font-family:'Poppins', sans-serif;
             font-weight: bolder;
-            background: linear-gradient(rgb(8, 8, 72),rgb(158, 158, 237));
+            background: linear-gradient(rgb(8, 8, 72),rgb(28, 28, 40));
            z-index: -1;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -359,13 +359,19 @@ font-family:'Poppins', sans-serif;
         
     }
     .heading1{
-        font-size: revert;
+        font-size: 2.7em;
+        background: linear-gradient(rgb(5, 5, 53),rgb(20, 20, 29));
+        z-index: -1;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          padding-bottom: 0.15em;
     }
     .aboutUs{
 
-        line-height: 2em;
+        line-height: 1.3em;
         font-size: 1.1em;
         z-index: -1;
+        top: -1.5em;
     }
     .flexDirection{
         margin-top: 1em;
@@ -375,7 +381,12 @@ font-family:'Poppins', sans-serif;
         margin-left: 7em;
     }
     .alertBox{
-        bottom: 3em;
+        bottom: 0em;
+    }
+    .quest{
+        /* top: 2em; */
+        margin-top: 0.5em;
+        display: flex;
     }
     /* .imageResStyle{
         display: block;
@@ -405,13 +416,17 @@ font-family:'Poppins', sans-serif;
  @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     /* your styles here */
     .aboutUs{
-        line-height: 2em;
+        line-height: 1.3em;
         font-size: 1.01em;
         z-index: -1;
     }
 
     .heading1{
         font-size: 2.3em;
+        background: linear-gradient(rgb(5, 5, 53),rgb(20, 20, 29));
+        z-index: -1;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
     }
 
     .alertBox{
