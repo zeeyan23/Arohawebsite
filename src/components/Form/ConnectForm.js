@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import {
   Alert,
   Badge,
@@ -14,7 +14,7 @@ import { useState } from "react";
 import { ThankYou } from "../ThankYou/ThankYou";
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
-
+// import SelectCountry from 'react-select-country';
 export const ConnectForm = () => {
   const navigate = useNavigate();
   const [enteredFirstName, setEnteredFirstName] = useState("");
@@ -38,6 +38,14 @@ export const ConnectForm = () => {
   const [validated, setValidated] = useState(false);
 
   const [show, setShow] = useState(false);
+
+  // const [country, setCountry] = useState('');
+
+  // const handleSelect = (event) => {
+
+  //   setCountry(event.target.value);
+  //   console.log(event.target.value)
+  // };
 
   const handleClose = () => setShow(false);
 
@@ -97,7 +105,7 @@ export const ConnectForm = () => {
     } else {
       axios
         .post(
-          "http://server.thebluefaith.com/savecontactusTableData.php",
+          "https://connect.arohagroup.com/savecontactusTableData.php",
           formData
         )
         .then((response) => {
@@ -122,23 +130,7 @@ export const ConnectForm = () => {
         .catch((error) => {
           console.log(error);
         });
-      const config = {
-        SecureToken: "75ddfdaa-40c0-438d-bfb2-8323ef128647",
-        To: "zeeyanraza444@gmail.com",
-        From: "zeeyanraza444@gmail.com",
-        Subject: `${enteredFirstName} has reached out to you`,
-        Body: `<h3>Entered Details are as follows----------</h3><br />
-          <strong>Name:</strong> ${enteredFirstName} ${enteredLastName}<br />
-          <strong>Email:</strong> ${enteredEmail}<br />
-          <strong>Contact Number:</strong> ${enteredNum}<br />
-          <strong>Company Name:</strong> ${enteredCompanyName}<br />
-          <strong>Location:</strong> ${enteredLocation}<br />
-          <strong>Comments:</strong> ${enteredDescription}</br />`,
-      };
-
-      if (window.Email) {
-        window.Email.send(config);
-      }
+      
     }
     setValidated(true);
   };
@@ -241,8 +233,7 @@ export const ConnectForm = () => {
               </Form.Group>
             </Row>
             <Row className="mb-4">
-              <Form.Group as={Col} md="6" controlId="validationCustom01">
-                {/* <Form.Label className={classes.label}>Location</Form.Label> */}
+              <Form.Group as={Col} md="6"  controlId="validationCustom01">
                 <Form.Control
                   required
                   type="text"
@@ -250,24 +241,17 @@ export const ConnectForm = () => {
                   value={enteredLocation}
                   onChange={locationChangeHandler}
                 />
+                {/* <SelectCountry
+                  value={country}
+                  id={classes.dropDownStyle}
+                  onChange={handleSelect}
+                  placeholder="Select a country"
+                  
+                /> */}
                 <Form.Control.Feedback type="invalid" className={classes.test}>
                   Please provide location.
                 </Form.Control.Feedback>
               </Form.Group>
-              {/* <Form.Group as={Col} md="6" controlId="validationCustom01">
-                <Form.Label className={classes.label}>Pin Code</Form.Label>
-                <Form.Control
-                  required
-                  type="text"
-                  placeholder="Pin Code"
-                  maxLength={6}
-                  value={enteredPinCode}
-                  onChange={pinCodeChangeHandler}
-                />
-                <Form.Control.Feedback type="invalid">
-                  Please enter pincode.
-                </Form.Control.Feedback>
-              </Form.Group> */}
               <Form.Group
                 as={Col}
                 md="6"

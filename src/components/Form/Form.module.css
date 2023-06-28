@@ -3,12 +3,18 @@ Form{
     /* width: 100%; */
     margin: auto;
     /* margin-right: 45%; */
-    /* height: 25em; */
+    /* height: em; */
     margin-top: 1em;
     border-radius: 1em;
     padding: 3em;
     padding-bottom: 5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#dropDownStyle{
+  width: 12.4em;
+  padding: 0.4em;
+  border-color: lightgrey;
+  border-radius: 0.3em;
 }
 .invalidEmail{
   color: red;

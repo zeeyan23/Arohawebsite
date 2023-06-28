@@ -81,10 +81,13 @@
 .alertBox{
     bottom: 30em;
     margin-left: 2em;
+    color: black;
     text-align: center;
     font-weight: bold;
     z-index: -1;
     font-size: larger;
+    background-color: whitesmoke;
+    border: none;
 }
 .heading{
 
@@ -271,7 +274,7 @@ font-family:'Poppins', sans-serif;
     }
     .heading1{
         color:black;
-        font-size: 2.5em;
+        font-size: 2em;
         text-align: left;
         
     }
@@ -303,8 +306,7 @@ font-family:'Poppins', sans-serif;
     }
     .formTopTablet{
         display: block;
-        margin-top: 0.5em;
-        bottom: 5.5em;
+        margin-top: -2.5em;
     }
     .quest{
         margin-left: auto;
@@ -314,7 +316,7 @@ font-family:'Poppins', sans-serif;
     .aboutUs{
         margin-left: auto;
         line-height: normal;
-        font-size: initial;
+        font-size: 0.85em;
     }
     .btnflat{
         margin-left: 1em;
@@ -344,38 +346,47 @@ font-family:'Poppins', sans-serif;
     .formTopTablet{
         display: none;
     }
+    #mobileStyle{
+        width: 1158px;
+        margin-left: 3.5em;
+        margin-top: 3.2em;
+    }
     .formTop{
         display: block;
         
     }
     .heading1{
-        font-size: 2.8em;
+        font-size: 2.7em;
        color:black;
         z-index: -1;
         font-family: 'Poppins', sans-serif;
           
-          padding-bottom: 0.15em;
+          padding-bottom: 0.01em;
     }
     .aboutUs{
-
+        color: #8e8686;
         line-height: 1.3em;
         font-size: 1.1em;
         z-index: -1;
-        top: -1.5em;
+        top: -2.5em;
     }
     .flexDirection{
         margin-top: 1em;
         padding-bottom: 2.5em;
+        
+            width: 1190px;
+            margin-left: 4em;
+        
     }
     .btnflat{
         margin-left: 7em;
     }
     .alertBox{
-        bottom: 0em;
+        bottom: 1em;
     }
     .quest{
         /* top: 2em; */
-        margin-top: 0.5em;
+        /* margin-top: 0.5em; */
         display: flex;
     }
     /* .imageResStyle{
@@ -400,6 +411,7 @@ font-family:'Poppins', sans-serif;
     /* .formTop{
         display: block;
     } */
+    
     .Footer{
         background-image: linear-gradient(rgb(9, 9, 73), black);
             padding: 5;

@@ -1,6 +1,38 @@
-.thankyou{
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    width: 50%
+
+.textStyle{
+    position: absolute;
+    top: 6em;
+
+    
+}
+
+@media only screen and (max-width: 600px){
+    .textStyle{
+        position: absolute;
+        top: 6em;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .textStyle{
+        position: absolute;
+        top: 6em;
+        right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .textStyle{
+        position: absolute;
+        top: 6em;
+        right: 0.5em;
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .textStyle{
+        position: absolute;
+        top: 6em;
+    }
 }

@@ -1,6 +1,6 @@
 {
   "name": "test-reactjs",
-  "homepage": "http://server.thebluefaith.com/aroha_site/",
+  "homepage": "https://connect.arohagroup.com",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8006",
@@ -22,8 +22,12 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-geosuggest": "^2.14.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-select": "^5.7.2",
+    "react-select-country": "^0.0.15",
+    "react-select-country-list": "^2.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
